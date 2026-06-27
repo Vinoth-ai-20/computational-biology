@@ -1,183 +1,276 @@
-# ============================================================
-# Computational Biology Research Notebooks Repository
-# .gitignore
-# ============================================================
+# =============================================================================
+# Computational Biology — .gitignore
+# Python + Jupyter + VS Code + Scientific Computing + Rust + OS
+# =============================================================================
 
-# ============================================================
+# =============================================================================
 # Python
-# ============================================================
+# =============================================================================
 
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.pyd
 
-# Distribution
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
 dist/
-*.egg-info/
+downloads/
+eggs/
 .eggs/
-pip-wheel-metadata/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# ============================================================
-# Virtual Environments
-# ============================================================
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-.venv/
-venv/
-env/
-ENV/
-
-# ============================================================
-# Python Environment
-# ============================================================
-
-.python-version
-
-# ============================================================
-# Jupyter
-# ============================================================
-
-.ipynb_checkpoints/
-
-# ============================================================
-# Testing
-# ============================================================
-
-.pytest_cache/
-.coverage
-.coverage.*
+# Unit test / coverage
 htmlcov/
 .tox/
 .nox/
-.cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
 
-# ============================================================
-# Type Checkers
-# ============================================================
-
+# Type checkers
 .mypy_cache/
+.dmypy.json
+dmypy.json
 .pyre/
 .pytype/
+pyrightconfig.json
 .ruff_cache/
 
-# ============================================================
-# Logs
-# ============================================================
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+.python-version
 
-*.log
-logs/
+# =============================================================================
+# Jupyter
+# =============================================================================
 
-# ============================================================
-# IDEs
-# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# papermill execution outputs
+*_executed.ipynb
+papermill_outputs/
+
+# =============================================================================
+# VS Code
+# =============================================================================
 
 .vscode/
-.idea/
+# Keep shared workspace settings
+!.vscode/settings.json
+!.vscode/extensions.json
 *.code-workspace
+.history/
 
-# ============================================================
-# Operating Systems
-# ============================================================
+# =============================================================================
+# JetBrains / PyCharm
+# =============================================================================
 
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =============================================================================
 # Windows
-Thumbs.db
-Desktop.ini
+# =============================================================================
 
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# =============================================================================
 # macOS
+# =============================================================================
+
 .DS_Store
 .AppleDouble
 .LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
+# =============================================================================
 # Linux
-*~
+# =============================================================================
 
-# ============================================================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
 # Rust
-# ============================================================
+# =============================================================================
 
 target/
-
-# Ignore Cargo.lock only if this becomes a Rust library.
-# Keep it if this is a Rust application.
+**/*.rs.bk
+*.pdb
+# Keep Cargo.lock for application crates; library crates should not commit it
 # Cargo.lock
 
-# ============================================================
-# Data
-# ============================================================
+# =============================================================================
+# Scientific computing — large generated outputs
+# =============================================================================
 
-# Raw downloaded datasets
-datasets/raw/
+# NumPy / SciPy binary arrays
+*.npy
+*.npz
 
-# Cache
-datasets/cache/
-
-# Temporary exports
-datasets/tmp/
-
-# Large generated files
+# HDF5 / Anndata
 *.h5
 *.hdf5
-*.npz
-*.npy
+*.h5ad
+
+# Pickle / joblib
 *.pkl
 *.pickle
 *.joblib
 
-# ============================================================
-# Generated Figures
-# ============================================================
+# Parquet
+*.parquet
 
-outputs/
-generated/
-reports/
+# =============================================================================
+# Bioinformatics — large, regenerable files
+# =============================================================================
 
-# ============================================================
-# Documentation Builds
-# ============================================================
+*.bam
+*.bai
+*.sam
+*.vcf
+*.bcf
+*.bcf.gz
+*.vcf.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa.gz
+*.fasta.gz
 
-site/
+# =============================================================================
+# Machine learning — model weights and run artifacts
+# =============================================================================
+
+*.pt
+*.pth
+*.ckpt
+checkpoint_*/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# =============================================================================
+# Dataset cache — raw data fetched by scripts, not committed
+# Raw data goes in datasets/raw/ (gitignored) — fetch via scripts/
+# Processed data in datasets/processed/ IS committed if it is small and derived
+# =============================================================================
+
+curriculum/*/datasets/raw/
+curriculum/*/datasets/cache/
+data/raw/
+data/cache/
+.cache/
+*.cache
+
+# =============================================================================
+# Documentation builds
+# =============================================================================
+
 docs/_build/
+docs/site/
+site/
+_site/
+.sphinx/
 
-# ============================================================
-# Environment Variables
-# ============================================================
-
-.env
-.env.*
-!.env.example
-
-# ============================================================
-# Notebook Execution Artifacts
-# ============================================================
-
-*.nbconvert.ipynb
-
-# ============================================================
-# Temporary Files
-# ============================================================
+# =============================================================================
+# Temporary files
+# =============================================================================
 
 *.tmp
 *.temp
 *.bak
 *.swp
 *.swo
+*~
+.tmp/
+tmp/
+temp/
+logs/
+*.log
 
-# ============================================================
-# Package Managers
-# ============================================================
+# =============================================================================
+# Secrets and credentials — never commit these
+# =============================================================================
 
-node_modules/
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+api_keys.txt
 
-# ============================================================
-# Ignore Local Secrets
-# ============================================================
-
-secrets/
-credentials/
-
-# ============================================================
-# Keep Important Repository Files
-# ============================================================
+# =============================================================================
+# Keep important repository files
+# =============================================================================
 
 !.gitignore
 !README.md
@@ -185,3 +278,7 @@ credentials/
 !CLAUDE.md
 !Learning_Progress.md
 !ENVIRONMENT.md
+!requirements.txt
+!environment.yml
+!pyproject.toml
+!.pre-commit-config.yaml

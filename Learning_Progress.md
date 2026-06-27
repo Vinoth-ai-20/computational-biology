@@ -2,7 +2,7 @@
 
 ## Claude Project: **Computational Biology**
 
-### Document: 12-Month Research Notebook Tracker | Version 2.0 | Created: 27 June 2026 | Supersedes v1.0
+### Document: 12-Month Research Accelerator Tracker | Version 2.0 | Created: 27 June 2026 | Supersedes v1.0
 
 ### Status: 🟢 Update whenever a notebook/module/paper/milestone completes — not on a fixed schedule
 
@@ -31,18 +31,18 @@
 
 ## 1. LEARNER PROFILE
 
-| Skill                                | Level                                                              | Notes                                                                                                                        |
-| ------------------------------------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| Python (NumPy/Pandas/Matplotlib)     | 5/5                                                                | Strongest existing asset — Module 01 is mostly bio-specific-library acquisition, not new-language learning                   |
-| Rust                                 | 3/5                                                                | Existing Phylon/SJG ERP/COSMOS-NEXUSIM HPC experience transfers directly into Module 17                                      |
-| Machine Learning (RAG/LLM/AI agents) | 3/5                                                                | Existing asset — this is *why*  Module 13 is Tier 1 despite the time box: it's efficient, not expensive, to bring to mastery |
-| Biology (formal)                     | **0/5 — no formal background**                                     | The real gap. Module 05 is genuinely first-pass, not review. Budget real time here, don't rush it to protect other modules.  |
-| Statistics & Probability             | 1/5                                                                | Highest-leverage gap to close given how interview-tested it is — Module 03 is Tier 1                                         |
-| Linear Algebra                       | 2/5                                                                | Sufficient for applied use (PCA, regression) at Tier 2 depth                                                                 |
-| Reading dense academic papers alone  | 2/5                                                                | Tracked explicitly via Pass-3 success rate in `paper-notes/`                                                                 |
-| Agent-based modeling (Mesa)          | 1/5                                                                | Possible prior exposure elsewhere — port in if it exists, Module 15 doesn't assume it                                        |
-| Scientific visualization             | 4/5 (intuitive)                                                    | Genuine strength — every module's visualization step should lean on this, not treat it as a checkbox                         |
-| Unix/command-line                    | Untested — assume working-programmer baseline, verify in Module 01 | New explicit focus this version, given interview research                                                                    |
+| Skill | Level | Notes |
+|---|---|---|
+| Python (NumPy/Pandas/Matplotlib) | 5/5 | Strongest existing asset — Module 01 is mostly bio-specific-library acquisition, not new-language learning |
+| Rust | 3/5 | Existing Phylon/SJG ERP/COSMOS-NEXUSIM HPC experience transfers directly into Module 17 |
+| Machine Learning (RAG/LLM/AI agents) | 3/5 | Existing asset — this is *why* Module 13 is Tier 1 despite the time box: it's efficient, not expensive, to bring to mastery |
+| Biology (formal) | **0/5 — no formal background** | The real gap. Module 05 is genuinely first-pass, not review. Budget real time here, don't rush it to protect other modules. |
+| Statistics & Probability | 1/5 | Highest-leverage gap to close given how interview-tested it is — Module 03 is Tier 1 |
+| Linear Algebra | 2/5 | Sufficient for applied use (PCA, regression) at Tier 2 depth |
+| Reading dense academic papers alone | 2/5 | Tracked explicitly via Pass-3 success rate in `paper-notes/` |
+| Agent-based modeling (Mesa) | 1/5 | Possible prior exposure elsewhere — port in if it exists, Module 15 doesn't assume it |
+| Scientific visualization | 4/5 (intuitive) | Genuine strength — every module's visualization step should lean on this, not treat it as a checkbox |
+| Unix/command-line | Untested — assume working-programmer baseline, verify in Module 01 | New explicit focus this version, given interview research |
 
 **Critical framing, unchanged from v1.0 and more urgent now:** this is a zero-biology
 entrant on a 12-month clock. The honest response is depth-tiering (§2), not pretending
@@ -52,261 +52,28 @@ entrant on a 12-month clock. The honest response is depth-tiering (§2), not pre
 
 ## 2. MODULE DEPTH-TIER ASSIGNMENT (all 20 modules, one screen)
 
-|
-
-#
-
-| Module
-| Tier
-| Rationale
-|
-|---
-|
----
-|
----
-|
----
-|
-|
- 01
-|
- Python & Scientific Computing
-|
-
-**
-1 — Master
-**
-
-|
- Foundation for literally everything else; also already 80% there
-|
-
-|
- 02
-|
- Mathematics for Biology
-|
- 2 — Working
-|
- Needed to follow systems-biology/population-genetics reasoning, not to derive it from axioms
-|
-
-|
- 03
-|
- Statistics & Probability
-|
-
-**
-1 — Master
-**
-
-|
- The single most interview-tested non-coding skill in Track A; required for Track B paper-reading
-|
-
-|
- 04
-|
- Linear Algebra
-|
- 2 — Working
-|
- Applied depth (PCA, regression) is sufficient
-|
-
-|
- 05
-|
- Biology Fundamentals
-|
-
-**
-1 — Master
-**
-
-|
- The real gap — must be solid, not survey-level
-|
-
-|
- 06
-|
- Genetics & Evolution
-|
- 2 — Working
-|
- Builds on 05; full coalescent-theory rigor is out of scope this year
-|
-
-|
- 07
-|
- Biochemistry & Molecular Biology
-|
- 2 — Working
-|
- Supports later modules; wet-lab depth not needed
-|
-
-|
- 08
-|
- Bioinformatics: Sequence Analysis
-|
-
-**
-1 — Master
-**
-
-|
- Canonical interview topic ("how does BLAST work") — must be solid
-|
-
-|
- 09
-|
- Genomics & NGS
-|
-
-**
-1 — Master
-**
-
-|
- Single highest Track A job-posting relevance found in research
-|
-
-|
- 10
-|
- Transcriptomics & Proteomics
-|
- 2 — Working
-|
- Single-cell/proteomics survey is enough; deep NGS already covered in 09
-|
-
-|
- 11
-|
- Structural Biology
-|
- 3 — Survey
-|
- Important to know (AlphaFold era) but not the leverage point this year
-|
-
-|
- 12
-|
- Systems & Network Biology
-|
- 2 — Working
-|
-
-**
-Promotion candidate
-**
- — real 2026 India job posting evidence found; revisit at Month-3 checkpoint
-|
-
-|
- 13
-|
- Machine Learning for Biology
-|
-
-**
-1 — Master
-**
-
-|
- Existing ML background makes this efficient, and it's explicitly named in EMBL/IMPRS recruitment themes
-|
-
-|
- 14
-|
- Deep Learning & GNNs
-|
- 3 — Survey
-|
- High effort-to-leverage ratio this year; revisit if specialization points here
-|
-
-|
- 15
-|
- Simulation & Agent-Based Modeling
-|
- 2 — Working
-|
- Bridge to ALife/Computational Ecology if that's the door that opens
-|
-
-|
- 16
-|
- Research Software Engineering
-|
-
-**
-1 — Master
-**
-
-|
- "Research Software Engineer" is a named Track A target role — this module
-*
-is
-*
- that qualification
-|
-
-|
- 17
-|
- HPC, Parallel Computing & Rust
-|
- 2 — Working
-|
- Existing Rust background makes this efficient; differentiator, not baseline
-|
-
-|
- 18
-|
- Scientific Writing & Open Science
-|
- Ongoing
-|
- Weekly habit from Week 1, not tier-rated
-|
-
-|
- 19
-|
- Research Seminar & Paper Reading
-|
- Ongoing
-|
- Weekly, intensifying in the back third of the year
-|
-
-|
- 20
-|
- Capstone Projects
-|
-
-**
-1 — Master (synthesis)
-**
-
-|
- The integration point — not a 20th topic, the point of the other 19
-|
+| # | Module | Tier | Rationale |
+|---|---|---|---|
+| 01 | Python & Scientific Computing | **1 — Master** | Foundation for literally everything else; also already 80% there |
+| 02 | Mathematics for Biology | 2 — Working | Needed to follow systems-biology/population-genetics reasoning, not to derive it from axioms |
+| 03 | Statistics & Probability | **1 — Master** | The single most interview-tested non-coding skill in Track A; required for Track B paper-reading |
+| 04 | Linear Algebra | 2 — Working | Applied depth (PCA, regression) is sufficient |
+| 05 | Biology Fundamentals | **1 — Master** | The real gap — must be solid, not survey-level |
+| 06 | Genetics & Evolution | 2 — Working | Builds on 05; full coalescent-theory rigor is out of scope this year |
+| 07 | Biochemistry & Molecular Biology | 2 — Working | Supports later modules; wet-lab depth not needed |
+| 08 | Bioinformatics: Sequence Analysis | **1 — Master** | Canonical interview topic ("how does BLAST work") — must be solid |
+| 09 | Genomics & NGS | **1 — Master** | Single highest Track A job-posting relevance found in research |
+| 10 | Transcriptomics & Proteomics | 2 — Working | Single-cell/proteomics survey is enough; deep NGS already covered in 09 |
+| 11 | Structural Biology | 3 — Survey | Important to know (AlphaFold era) but not the leverage point this year |
+| 12 | Systems & Network Biology | 2 — Working | **Promotion candidate** — real 2026 India job posting evidence found; revisit at Month-3 checkpoint |
+| 13 | Machine Learning for Biology | **1 — Master** | Existing ML background makes this efficient, and it's explicitly named in EMBL/IMPRS recruitment themes |
+| 14 | Deep Learning & GNNs | 3 — Survey | High effort-to-leverage ratio this year; revisit if specialization points here |
+| 15 | Simulation & Agent-Based Modeling | 2 — Working | Bridge to ALife/Computational Ecology if that's the door that opens |
+| 16 | Research Software Engineering | **1 — Master** | "Research Software Engineer" is a named Track A target role — this module *is* that qualification |
+| 17 | HPC, Parallel Computing & Rust | 2 — Working | Existing Rust background makes this efficient; differentiator, not baseline |
+| 18 | Scientific Writing & Open Science | Ongoing | Weekly habit from Week 1, not tier-rated |
+| 19 | Research Seminar & Paper Reading | Ongoing | Weekly, intensifying in the back third of the year |
+| 20 | Capstone Projects | **1 — Master (synthesis)** | The integration point — not a 20th topic, the point of the other 19 |
 
 **Tier counts:** 8 Tier 1, 7 Tier 2, 2 Tier 3, 2 Ongoing, 1 Capstone-synthesis = 20.
 This distribution is itself a claim — revisit it explicitly at each quarterly
@@ -318,198 +85,20 @@ checkpoint (§11), not by drift.
 
 Parallel tracks, not serial modules. Multiple modules are "active" in any given month.
 
-|
- Month
-|
- Calendar
-|
- Primary active modules
-|
- Track A checkpoint
-|
- Track B checkpoint
-|
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- 1
-|
- Jul 2026
-|
- 01 (fast), 03 (start), 05 (start)
-|
- M.E. viva (2 Jul) takes priority first; repo created, environment live
-|
- —
-|
-
-|
- 2
-|
- Aug 2026
-|
- 01 (finish core), 02 (start), 03, 04 (start), 05
-|
- First public commits
-|
- Register/refresh ORCID, Scholar, EURAXESS (shared with any existing tracking)
-|
-
-|
- 3
-|
- Sep 2026
-|
- 03 (finish), 05 (finish), 06 (start), 07 (start), 08 (start)
-|
- First mini-project public
-|
-
-**
-Quarterly checkpoint 1
-**
- — re-evaluate Module 12's tier
-|
-
-|
- 4
-|
- Oct 2026
-|
- 08 (finish), 09 (start), 06, 07
-|
- First Track A applications sent
-|
- —
-|
-
-|
- 5
-|
- Nov 2026
-|
- 09 (finish), 12 (start)
-|
- Track A interviews begin
-|
- —
-|
-
-|
- 6
-|
- Dec 2026
-|
- 12 (finish), 10 (start)
-|
-
-**
-Month 6 checkpoint — Track A bar (§13) due
-**
-
-|
- Cold-email-style outreach if relevant programmes are open
-|
-
-|
- 7
-|
- Jan 2027
-|
- 13 (start, fast given existing ML background), 10
-|
- Continue Track A process if not yet resolved
-|
- First formal applications to live programmes if deadlines align
-|
-
-|
- 8
-|
- Feb 2027
-|
- 13 (finish), 16 (start)
-|
- —
-|
-
-**
-Quarterly checkpoint 2
-**
-
-|
-
-|
- 9
-|
- Mar 2027
-|
- 16 (finish — v1.0 release), 15 (start), 17 (start)
-|
- —
-|
- Specialization decision point — pick the Capstone topic
-|
-
-|
- 10
-|
- Apr 2027
-|
- 17 (finish), 11 (survey sprint), 14 (survey sprint)
-|
- —
-|
- —
-|
-
-|
- 11
-|
- May 2027
-|
- 19 (intensive paper-reading sprint), SOP/proposal writing
-|
- —
-|
-
-**
-Quarterly checkpoint 3
-**
- — applications finalized
-|
-
-|
- 12
-|
- Jun 2027
-|
- 20 (Capstone — full month)
-|
- —
-|
-
-**
-Month 12 checkpoint — Track B package (§13) due
-**
-
-|
+| Month | Calendar | Primary active modules | Track A checkpoint | Track B checkpoint |
+|---|---|---|---|---|
+| 1 | Jul 2026 | 01 (fast), 03 (start), 05 (start) | M.E. viva (2 Jul) takes priority first; repo created, environment live | — |
+| 2 | Aug 2026 | 01 (finish core), 02 (start), 03, 04 (start), 05 | First public commits | Register/refresh ORCID, Scholar, EURAXESS (shared with any existing tracking) |
+| 3 | Sep 2026 | 03 (finish), 05 (finish), 06 (start), 07 (start), 08 (start) | First mini-project public | **Quarterly checkpoint 1** — re-evaluate Module 12's tier |
+| 4 | Oct 2026 | 08 (finish), 09 (start), 06, 07 | First Track A applications sent | — |
+| 5 | Nov 2026 | 09 (finish), 12 (start) | Track A interviews begin | — |
+| 6 | Dec 2026 | 12 (finish), 10 (start) | **Month 6 checkpoint — Track A bar (§13) due** | Cold-email-style outreach if relevant programmes are open |
+| 7 | Jan 2027 | 13 (start, fast given existing ML background), 10 | Continue Track A process if not yet resolved | First formal applications to live programmes if deadlines align |
+| 8 | Feb 2027 | 13 (finish), 16 (start) | — | **Quarterly checkpoint 2** |
+| 9 | Mar 2027 | 16 (finish — v1.0 release), 15 (start), 17 (start) | — | Specialization decision point — pick the Capstone topic |
+| 10 | Apr 2027 | 17 (finish), 11 (survey sprint), 14 (survey sprint) | — | — |
+| 11 | May 2027 | 19 (intensive paper-reading sprint), SOP/proposal writing | — | **Quarterly checkpoint 3** — applications finalized |
+| 12 | Jun 2027 | 20 (Capstone — full month) | — | **Month 12 checkpoint — Track B package (§13) due** |
 
 **Read this calendar as a planning tool, not a contract.** Real weeks will run long or
 short. The discipline that matters is the *parallel-tracks* structure and the
@@ -550,89 +139,12 @@ baseline for every Track A role.
 20. Module assessment + Track-A mock interview drill (Unix + NumPy + a FizzBuzz-style live-coding warm-up)
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Wilson et al. (2017),
-*
-Good enough practices in scientific computing
-*
-, PLOS Comp Bio
-|
- Foundational
-|
- Sets the bar for every notebook in this entire program
-|
- Week 1
-|
- Easy
-|
- None
-|
-
-|
- VanderPlas,
-*
-Python Data Science Handbook
-*
- (free online)
-|
- Modern book
-|
- Reference, not cover-to-cover
-|
- Throughout
-|
- Easy
-|
- Existing Python
-|
-
-|
- Biopython Tutorial & Cookbook (official docs)
-|
- Software reference
-|
- The actual tool used everywhere downstream
-|
- Week 5–6
-|
- Easy
-|
- Basic Python
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Wilson et al. (2017), *Good enough practices in scientific computing*, PLOS Comp Bio | Foundational | Sets the bar for every notebook in this entire program | Week 1 | Easy | None |
+| VanderPlas, *Python Data Science Handbook* (free online) | Modern book | Reference, not cover-to-cover | Throughout | Easy | Existing Python |
+| Biopython Tutorial & Cookbook (official docs) | Software reference | The actual tool used everywhere downstream | Week 5–6 | Easy | Basic Python |
 
 **Status:** ⏳ Not started — 0/20 notebooks
 
@@ -660,93 +172,12 @@ Python Data Science Handbook
 12. Mini project + assessment: Lotka-Volterra solver, phase portrait
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Strogatz,
-*
-Nonlinear Dynamics and Chaos
-*
-
-|
- Classic book
-|
- The standard reference for everything in this module
-|
- Throughout
-|
- Moderate
-|
- Calculus refresher
-|
-
-|
- 3Blue1Brown,
-*
-Essence of Calculus
-*
- (video)
-|
- Modern resource
-|
- Best available intuition-first treatment
-|
- Week 1–2
-|
- Easy
-|
- None
-|
-
-|
- Murray,
-*
-Mathematical Biology I
-*
- (reference chapters only)
-|
- Classic book
-|
- Cite for Lotka-Volterra derivation, don't read cover-to-cover this year
-|
- Week 7
-|
- Hard (read selectively)
-|
- Module basics
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Strogatz, *Nonlinear Dynamics and Chaos* | Classic book | The standard reference for everything in this module | Throughout | Moderate | Calculus refresher |
+| 3Blue1Brown, *Essence of Calculus* (video) | Modern resource | Best available intuition-first treatment | Week 1–2 | Easy | None |
+| Murray, *Mathematical Biology I* (reference chapters only) | Classic book | Cite for Lotka-Volterra derivation, don't read cover-to-cover this year | Week 7 | Hard (read selectively) | Module basics |
 
 **Status:** ⏳ Not started — 0/12 notebooks
 
@@ -780,93 +211,12 @@ Mathematical Biology I
 18. Module assessment + mock interview: "walk me through testing whether this gene is differentially expressed"
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Benjamini & Hochberg (1995),
-*
-Controlling the False Discovery Rate
-*
-, J. R. Stat. Soc. B
-|
- Foundational
-|
- The FDR correction every genomics analysis depends on
-|
- Week 6
-|
- Moderate
-|
- Hypothesis testing basics
-|
-
-|
- Ioannidis (2005),
-*
-Why Most Published Research Findings Are False
-*
-, PLOS Medicine
-|
- Classic
-|
- Sobering, important, short — read early to internalize statistical humility
-|
- Week 3
-|
- Easy
-|
- None
-|
-
-|
- Efron & Tibshirani,
-*
-An Introduction to the Bootstrap
-*
-
-|
- Classic book
-|
- Reference for resampling methods
-|
- Week 8
-|
- Moderate
-|
- Probability basics
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Benjamini & Hochberg (1995), *Controlling the False Discovery Rate*, J. R. Stat. Soc. B | Foundational | The FDR correction every genomics analysis depends on | Week 6 | Moderate | Hypothesis testing basics |
+| Ioannidis (2005), *Why Most Published Research Findings Are False*, PLOS Medicine | Classic | Sobering, important, short — read early to internalize statistical humility | Week 3 | Easy | None |
+| Efron & Tibshirani, *An Introduction to the Bootstrap* | Classic book | Reference for resampling methods | Week 8 | Moderate | Probability basics |
 
 **Status:** ⏳ Not started — 0/18 notebooks
 
@@ -892,93 +242,12 @@ An Introduction to the Bootstrap
 10. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Strang,
-*
-Linear Algebra and Its Applications
-*
-
-|
- Classic book
-|
- The standard reference
-|
- Throughout
-|
- Moderate
-|
- None
-|
-
-|
- 3Blue1Brown,
-*
-Essence of Linear Algebra
-*
- (video)
-|
- Modern resource
-|
- Best intuition-first treatment available
-|
- Week 1
-|
- Easy
-|
- None
-|
-
-|
- Ringnér (2008),
-*
-What is principal component analysis?
-*
-, Nat. Biotechnol.
-|
- Classic
-|
- Short, exactly the right difficulty, biology-framed
-|
- Week 5
-|
- Easy
-|
- Basic linear algebra
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Strang, *Linear Algebra and Its Applications* | Classic book | The standard reference | Throughout | Moderate | None |
+| 3Blue1Brown, *Essence of Linear Algebra* (video) | Modern resource | Best intuition-first treatment available | Week 1 | Easy | None |
+| Ringnér (2008), *What is principal component analysis?*, Nat. Biotechnol. | Classic | Short, exactly the right difficulty, biology-framed | Week 5 | Easy | Basic linear algebra |
 
 **Status:** ⏳ Not started — 0/10 notebooks
 
@@ -1012,107 +281,13 @@ What is principal component analysis?
 18. Module assessment + Track-A mock interview: explain the central dogma and Hardy-Weinberg without notes
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Alberts et al.,
-*
-Molecular Biology of the Cell
-*
-
-|
- Classic book
-|
- Reference, not cover-to-cover — pull specific chapters
-|
- Throughout
-|
- Moderate–Hard (read selectively)
-|
- None
-|
-
-|
- Hartl & Clark,
-*
-Principles of Population Genetics
-*
-
-|
- Classic book
-|
- The Hardy-Weinberg/drift reference
-|
- Week 6–7
-|
- Moderate
-|
- None
-|
-
-|
- Pierce,
-*
-Genetics: A Conceptual Approach
-*
-
-|
- Modern book
-|
- More approachable entry point than Alberts
-|
- Week 1–4
-|
- Easy
-|
- None
-|
-
-|
- Khan Academy Biology; Amoeba Sisters (YouTube)
-|
- Video resources
-|
- Fast, visual, exactly matched to a zero-background entrant
-|
- Throughout
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Alberts et al., *Molecular Biology of the Cell* | Classic book | Reference, not cover-to-cover — pull specific chapters | Throughout | Moderate–Hard (read selectively) | None |
+| Hartl & Clark, *Principles of Population Genetics* | Classic book | The Hardy-Weinberg/drift reference | Week 6–7 | Moderate | None |
+| Pierce, *Genetics: A Conceptual Approach* | Modern book | More approachable entry point than Alberts | Week 1–4 | Easy | None |
+| Khan Academy Biology; Amoeba Sisters (YouTube) | Video resources | Fast, visual, exactly matched to a zero-background entrant | Throughout | Easy | None |
 
 **Status:** ⏳ Not started — 0/18 notebooks
 
@@ -1140,93 +315,12 @@ Genetics: A Conceptual Approach
 12. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Kimura (1968),
-*
-Evolutionary rate at the molecular level
-*
-, Nature
-|
- Classic
-|
- The neutral theory of molecular evolution
-|
- Week 11
-|
- Moderate
-|
- Module 05
-|
-
-|
- Felsenstein (1981),
-*
-Evolutionary trees from DNA sequences: a maximum likelihood approach
-*
-
-|
- Foundational
-|
- The likelihood framework underlying modern phylogenetics
-|
- Week 12
-|
- Hard — flag explicitly, this one's a real stretch
-|
- Statistics basics (Module 03)
-|
-
-|
- Nei & Kumar,
-*
-Molecular Evolution and Phylogenetics
-*
-
-|
- Reference book
-|
- Pull specific chapters as needed
-|
- Throughout
-|
- Moderate
-|
- —
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Kimura (1968), *Evolutionary rate at the molecular level*, Nature | Classic | The neutral theory of molecular evolution | Week 11 | Moderate | Module 05 |
+| Felsenstein (1981), *Evolutionary trees from DNA sequences: a maximum likelihood approach* | Foundational | The likelihood framework underlying modern phylogenetics | Week 12 | Hard — flag explicitly, this one's a real stretch | Statistics basics (Module 03) |
+| Nei & Kumar, *Molecular Evolution and Phylogenetics* | Reference book | Pull specific chapters as needed | Throughout | Moderate | — |
 
 **Status:** ⏳ Not started — 0/12 notebooks
 
@@ -1252,71 +346,11 @@ Molecular Evolution and Phylogenetics
 10. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Nelson & Cox,
-*
-Lehninger Principles of Biochemistry
-*
-
-|
- Reference book
-|
- Pull chapters only
-|
- Throughout
-|
- Moderate
-|
- Module 05
-|
-
-|
- Alberts et al. (continued from Module 05)
-|
- Reference book
-|
- Same source, deeper chapters
-|
- Throughout
-|
- Moderate
-|
- Module 05
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Nelson & Cox, *Lehninger Principles of Biochemistry* | Reference book | Pull chapters only | Throughout | Moderate | Module 05 |
+| Alberts et al. (continued from Module 05) | Reference book | Same source, deeper chapters | Throughout | Moderate | Module 05 |
 
 **Status:** ⏳ Not started — 0/10 notebooks
 
@@ -1350,129 +384,14 @@ Lehninger Principles of Biochemistry
 18. Module assessment + mock interview: "How does BLAST work?" (must include k-mer seeding and heuristic extension)
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Needleman & Wunsch (1970),
-*
-A general method applicable to the search for similarities...
-*
-
-|
- Foundational
-|
- The global alignment algorithm, from the source
-|
- Week 11
-|
- Easy–Moderate
-|
- Module 01
-|
-
-|
- Smith & Waterman (1981),
-*
-Identification of common molecular subsequences
-*
-
-|
- Foundational
-|
- The local alignment algorithm, from the source
-|
- Week 11
-|
- Easy–Moderate
-|
- Needleman-Wunsch
-|
-
-|
- Altschul et al. (1990),
-*
-Basic local alignment search tool
-*
-, J. Mol. Biol.
-|
- Foundational, interview-critical
-|
- The actual BLAST paper — read this before anyone asks "how does BLAST work"
-|
- Week 13
-|
- Moderate
-|
- Sequence alignment basics
-|
-
-|
- Durbin et al.,
-*
-Biological Sequence Analysis
-*
-
-|
- Classic book
-|
- The standard reference for this whole module
-|
- Throughout
-|
- Moderate–Hard
-|
- —
-|
-
-|
- Compeau & Pevzner,
-*
-Bioinformatics Algorithms: An Active Learning Approach
-*
-
-|
- Modern book
-|
- Very approachable, active-learning-aligned with this whole program's philosophy
-|
- Throughout
-|
- Easy–Moderate
-|
- —
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Needleman & Wunsch (1970), *A general method applicable to the search for similarities...* | Foundational | The global alignment algorithm, from the source | Week 11 | Easy–Moderate | Module 01 |
+| Smith & Waterman (1981), *Identification of common molecular subsequences* | Foundational | The local alignment algorithm, from the source | Week 11 | Easy–Moderate | Needleman-Wunsch |
+| Altschul et al. (1990), *Basic local alignment search tool*, J. Mol. Biol. | Foundational, interview-critical | The actual BLAST paper — read this before anyone asks "how does BLAST work" | Week 13 | Moderate | Sequence alignment basics |
+| Durbin et al., *Biological Sequence Analysis* | Classic book | The standard reference for this whole module | Throughout | Moderate–Hard | — |
+| Compeau & Pevzner, *Bioinformatics Algorithms: An Active Learning Approach* | Modern book | Very approachable, active-learning-aligned with this whole program's philosophy | Throughout | Easy–Moderate | — |
 
 **Status:** ⏳ Not started — 0/18 notebooks
 
@@ -1506,107 +425,13 @@ Bioinformatics Algorithms: An Active Learning Approach
 18. Module assessment + mock interview: walk through an RNA-seq pipeline end to end, defend every statistical choice
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Love, Huber & Anders (2014),
-*
-Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
-*
-, Genome Biology
-|
- Foundational, Track-A-critical
-|
- The actual method behind the standard pipeline
-|
- Week 21
-|
- Moderate
-|
- Module 03
-|
-
-|
- Mortazavi et al. (2008),
-*
-Mapping and quantifying mammalian transcriptomes by RNA-Seq
-*
-, Nat. Methods
-|
- Foundational
-|
- The founding RNA-seq paper
-|
- Week 17
-|
- Moderate
-|
- Module 08
-|
-
-|
- Conesa et al. (2016),
-*
-A survey of best practices for RNA-seq data analysis
-*
-, Genome Biology
-|
- Survey
-|
- Read this first, then go deep on specific steps
-|
- Week 16
-|
- Easy–Moderate
-|
- None
-|
-
-|
- EMBL-EBI training materials (embl-ebi.ac.uk/training)
-|
- Current/software docs
-|
- Free, current, exactly matched to this module
-|
- Throughout
-|
- Easy
-|
- —
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Love, Huber & Anders (2014), *Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2*, Genome Biology | Foundational, Track-A-critical | The actual method behind the standard pipeline | Week 21 | Moderate | Module 03 |
+| Mortazavi et al. (2008), *Mapping and quantifying mammalian transcriptomes by RNA-Seq*, Nat. Methods | Foundational | The founding RNA-seq paper | Week 17 | Moderate | Module 08 |
+| Conesa et al. (2016), *A survey of best practices for RNA-seq data analysis*, Genome Biology | Survey | Read this first, then go deep on specific steps | Week 16 | Easy–Moderate | None |
+| EMBL-EBI training materials (embl-ebi.ac.uk/training) | Current/software docs | Free, current, exactly matched to this module | Throughout | Easy | — |
 
 **Status:** ⏳ Not started — 0/18 notebooks
 
@@ -1632,75 +457,11 @@ A survey of best practices for RNA-seq data analysis
 10. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Wolf, Angerer & Theis (2018),
-*
-SCANPY: large-scale single-cell gene expression data analysis
-*
-, Genome Biology
-|
- Foundational software paper
-|
- Accessible, directly usable
-|
- Week 22
-|
- Easy–Moderate
-|
- Module 09
-|
-
-|
- Stuart & Satija (2019),
-*
-Integrative single-cell analysis
-*
-, Nat. Rev. Genetics
-|
- Survey
-|
- Good landscape view before going deeper
-|
- Week 21
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Wolf, Angerer & Theis (2018), *SCANPY: large-scale single-cell gene expression data analysis*, Genome Biology | Foundational software paper | Accessible, directly usable | Week 22 | Easy–Moderate | Module 09 |
+| Stuart & Satija (2019), *Integrative single-cell analysis*, Nat. Rev. Genetics | Survey | Good landscape view before going deeper | Week 21 | Easy | None |
 
 **Status:** ⏳ Not started — 0/10 notebooks
 
@@ -1724,71 +485,11 @@ Integrative single-cell analysis
 8. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Jumper et al. (2021),
-*
-Highly accurate protein structure prediction with AlphaFold
-*
-, Nature
-|
- Foundational
-|
- Too important to skip even at survey tier
-|
- Week 25
-|
- Hard — flag explicitly
-|
- Module 05, 13
-|
-
-|
- Kryshtafovych et al., CASP overview papers
-|
- Survey
-|
- Landscape of the structure-prediction field
-|
- Week 24
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Jumper et al. (2021), *Highly accurate protein structure prediction with AlphaFold*, Nature | Foundational | Too important to skip even at survey tier | Week 25 | Hard — flag explicitly | Module 05, 13 |
+| Kryshtafovych et al., CASP overview papers | Survey | Landscape of the structure-prediction field | Week 24 | Easy | None |
 
 **Status:** ⏳ Not started — 0/8 notebooks
 
@@ -1816,75 +517,11 @@ Highly accurate protein structure prediction with AlphaFold
 12. **Reserved slot** — promote to full Tier 1 breakdown here if the Month-3 checkpoint confirms the signal
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Alon,
-*
-An Introduction to Systems Biology: Design Principles of Biological Circuits
-*
-
-|
- Classic book
-|
- The standard reference for this whole module
-|
- Throughout
-|
- Moderate
-|
- Module 02
-|
-
-|
- Barabási & Oltvai (2004),
-*
-Network biology: understanding the cell's functional organization
-*
-, Nat. Rev. Genetics
-|
- Foundational survey
-|
- The canonical entry point
-|
- Week 23
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Alon, *An Introduction to Systems Biology: Design Principles of Biological Circuits* | Classic book | The standard reference for this whole module | Throughout | Moderate | Module 02 |
+| Barabási & Oltvai (2004), *Network biology: understanding the cell's functional organization*, Nat. Rev. Genetics | Foundational survey | The canonical entry point | Week 23 | Easy | None |
 
 **Status:** ⏳ Not started — 0/12 notebooks (review for Tier 1 promotion at Month 3)
 
@@ -1916,89 +553,12 @@ Network biology: understanding the cell's functional organization
 16. Dual Track A/B mock: defend the evaluation methodology cold, no notes
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Ching et al. (2018),
-*
-Opportunities and obstacles for deep learning in biology and medicine
-*
-, J. R. Soc. Interface
-|
- Foundational survey
-|
- The landscape, with honest limitations
-|
- Week 15
-|
- Easy
-|
- None
-|
-
-|
- Eraslan et al. (2019),
-*
-Deep learning: new computational modelling techniques for genomics
-*
-, Nat. Rev. Genetics
-|
- Survey
-|
- Genomics-specific deep-dive
-|
- Week 17
-|
- Moderate
-|
- Module 09 basics
-|
-
-|
- Lin et al. (2023), ESM-2 paper (protein language models)
-|
- Modern
-|
- The current state of the art in protein language models
-|
- Week 20
-|
- Hard
-|
- Module 13 core
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Ching et al. (2018), *Opportunities and obstacles for deep learning in biology and medicine*, J. R. Soc. Interface | Foundational survey | The landscape, with honest limitations | Week 15 | Easy | None |
+| Eraslan et al. (2019), *Deep learning: new computational modelling techniques for genomics*, Nat. Rev. Genetics | Survey | Genomics-specific deep-dive | Week 17 | Moderate | Module 09 basics |
+| Lin et al. (2023), ESM-2 paper (protein language models) | Modern | The current state of the art in protein language models | Week 20 | Hard | Module 13 core |
 
 **Status:** ⏳ Not started — 0/16 notebooks
 
@@ -2022,67 +582,11 @@ Deep learning: new computational modelling techniques for genomics
 8. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Zitnik et al. (2018), graph representation learning in biomedicine (survey)
-|
- Survey
-|
- The landscape view
-|
- Week 25
-|
- Moderate
-|
- Module 13
-|
-
-|
- Gilmer et al. (2017), message-passing neural networks
-|
- Foundational
-|
- Technical — flag the difficulty honestly
-|
- Week 26
-|
- Hard
-|
- Module 13, graph basics
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Zitnik et al. (2018), graph representation learning in biomedicine (survey) | Survey | The landscape view | Week 25 | Moderate | Module 13 |
+| Gilmer et al. (2017), message-passing neural networks | Foundational | Technical — flag the difficulty honestly | Week 26 | Hard | Module 13, graph basics |
 
 **Status:** ⏳ Not started — 0/8 notebooks
 
@@ -2096,7 +600,7 @@ Deep learning: new computational modelling techniques for genomics
 
 **roadmap.md:**
 
-1. Why ABM belongs in a computational biology Notebook, not just an ecology curriculum
+1. Why ABM belongs in a computational biology accelerator, not just an ecology curriculum
 2. Mesa fundamentals — agents, schedulers, spatial grids
 3. The WolfSheep model — run unmodified first, then modify
 4. The ODD Protocol — writing one for a model
@@ -2110,75 +614,11 @@ Deep learning: new computational modelling techniques for genomics
 12. Specialization flag: this module is the bridge if Artificial Life/Computational Ecology is where signal points
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Grimm et al. (2020),
-*
-The ODD Protocol: A second update
-*
-, JASSS
-|
- Foundational
-|
- The documentation standard for the entire field
-|
- Week 27
-|
- Easy
-|
- None
-|
-
-|
- Railsback & Grimm,
-*
-Agent-Based and Individual-Based Modeling
-*
- (Ch. 1–2 only at this tier)
-|
- Classic textbook
-|
- The standard reference
-|
- Week 26–27
-|
- Easy–Moderate
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Grimm et al. (2020), *The ODD Protocol: A second update*, JASSS | Foundational | The documentation standard for the entire field | Week 27 | Easy | None |
+| Railsback & Grimm, *Agent-Based and Individual-Based Modeling* (Ch. 1–2 only at this tier) | Classic textbook | The standard reference | Week 26–27 | Easy–Moderate | None |
 
 **Status:** ⏳ Not started — 0/12 notebooks
 
@@ -2210,93 +650,12 @@ Agent-Based and Individual-Based Modeling
 16. **Standing milestone:** `compbio_utils` reaches a tagged `v1.0` with tests, docs, and a `CITATION.cff`
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Wilson et al. (2017),
-*
-Good enough practices in scientific computing
-*
-, PLOS Comp Bio
-|
- Foundational
-|
- The literal audit checklist for this module
-|
- Week 1 (revisit Week 30)
-|
- Easy
-|
- None
-|
-
-|
- Goth et al. (2023),
-*
-Foundational Competencies and Responsibilities of a Research Software Engineer
-*
-
-|
- Foundational, current
-|
- Defines the RSE identity this module is building toward
-|
- Week 31
-|
- Moderate
-|
- Some RSE practice already done
-|
-
-|
- Cohen et al. (2021),
-*
-The Four Pillars of Research Software Engineering
-*
-
-|
- Survey
-|
- Frames software, community, training, and policy as one job
-|
- Week 32
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Wilson et al. (2017), *Good enough practices in scientific computing*, PLOS Comp Bio | Foundational | The literal audit checklist for this module | Week 1 (revisit Week 30) | Easy | None |
+| Goth et al. (2023), *Foundational Competencies and Responsibilities of a Research Software Engineer* | Foundational, current | Defines the RSE identity this module is building toward | Week 31 | Moderate | Some RSE practice already done |
+| Cohen et al. (2021), *The Four Pillars of Research Software Engineering* | Survey | Frames software, community, training, and policy as one job | Week 32 | Easy | None |
 
 **Status:** ⏳ Not started — 0/16 notebooks; `compbio_utils` v0 exists from Module 01, v1.0 due Month 9
 
@@ -2322,53 +681,10 @@ The Four Pillars of Research Software Engineering
 10. Module assessment
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Software Carpentry / The Carpentries lessons
-|
- Current, free
-|
- Exactly matched to this module's scope
-|
- Throughout
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Software Carpentry / The Carpentries lessons | Current, free | Exactly matched to this module's scope | Throughout | Easy | None |
 
 *This module is reference-driven, not paper-driven — no single canonical paper anchors it.*
 
@@ -2384,82 +700,18 @@ The Four Pillars of Research Software Engineering
 
 **Cadence (not a fixed notebook list):**
 
-* Weekly: 100-word writing habit, any concept, from Week 1.
-* Monthly: one polished paragraph/section added to the running literature-review draft.
-* Covers across the year: methods-section writing, pre-registration/open-science norms,
+- Weekly: 100-word writing habit, any concept, from Week 1.
+- Monthly: one polished paragraph/section added to the running literature-review draft.
+- Covers across the year: methods-section writing, pre-registration/open-science norms,
   authorship and AI-disclosure ethics, the actual mechanics of submitting to
   arXiv/bioRxiv.
 
 **papers.md:**
-|
- Resource
-|
- Type
-|
- Why
-|
- When
-|
- Difficulty
-|
- Prereqs
-|
 
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Day & Gastel,
-*
-How to Write and Publish a Scientific Paper
-*
-
-|
- Classic book
-|
- The standard reference
-|
- Throughout
-|
- Easy
-|
- None
-|
-
-|
- Wilkinson et al. (2016),
-*
-The FAIR Guiding Principles for scientific data management
-*
-, Sci. Data
-|
- Foundational
-|
- Short, important, defines the open-science standard this whole repo follows
-|
- Week 4
-|
- Easy
-|
- None
-|
+| Resource | Type | Why | When | Difficulty | Prereqs |
+|---|---|---|---|---|---|
+| Day & Gastel, *How to Write and Publish a Scientific Paper* | Classic book | The standard reference | Throughout | Easy | None |
+| Wilkinson et al. (2016), *The FAIR Guiding Principles for scientific data management*, Sci. Data | Foundational | Short, important, defines the open-science standard this whole repo follows | Week 4 | Easy | None |
 
 **Status:** ⏳ Not started — habit not yet established
 
@@ -2473,11 +725,11 @@ The FAIR Guiding Principles for scientific data management
 
 **Cadence:**
 
-* Weeks 1–31: at least 1 paper/week via the Three-Pass Method, drawn from whichever
+- Weeks 1–31: at least 1 paper/week via the Three-Pass Method, drawn from whichever
   module is active.
-* Weeks 32–48 (the "research seminar sprint"): 2–3 papers/week, concentrated in
+- Weeks 32–48 (the "research seminar sprint"): 2–3 papers/week, concentrated in
   whichever specialization emerged from the Month-9 checkpoint.
-* Every paper logged in `paper-notes/`, including whether the Pass-3 reconstruction
+- Every paper logged in `paper-notes/`, including whether the Pass-3 reconstruction
   succeeded unaided — this is the metric that matters, not the count of papers "read."
 
 **Status:** ⏳ Not started — 0 papers logged
@@ -2493,11 +745,11 @@ The FAIR Guiding Principles for scientific data management
 **This is not a 20th topic — it is the integration point.** One substantial project,
 chosen at the Month-9 specialization checkpoint, that:
 
-* Draws on skills from at least 4 other modules
-* Produces a public, documented, reproducible repository sub-project
-* Is written up properly (Module 18's standard) and presented as if defending it in an
+- Draws on skills from at least 4 other modules
+- Produces a public, documented, reproducible repository sub-project
+- Is written up properly (Module 18's standard) and presented as if defending it in an
   interview (Module 16/19 skills combined — a real mock defense, not just a write-up)
-* Gets submitted somewhere real if it's strong enough — a preprint server at minimum
+- Gets submitted somewhere real if it's strong enough — a preprint server at minimum
 
 **Status:** ⏳ Topic not yet chosen — decision due at the Month-9 checkpoint
 
@@ -2505,102 +757,19 @@ chosen at the Month-9 specialization checkpoint, that:
 
 ## 5. GITHUB & PORTFOLIO PROGRESS
 
-|
- Item
-|
- Status
-|
-
-|
----
-
-|
----
-
-|
-
-|
- Repo created (
-`computational-biology`
-, public)
-|
- ⏳ To do
-|
-
-|
-
-`README.md`
- (front door, 12-month plan visible)
-|
- ⏳ To do
-|
-
-|
-
-`ENVIRONMENT.md`
-
-* pinned dependencies + one-command bootstrap
-|
- ⏳ To do
-|
-
-|
-
-`.pre-commit-config.yaml`
- (jupytext + nbstripout)
-|
- ⏳ To do
-|
-
-|
-
-`utilities/compbio_utils`
- v0 seeded
-|
- ⏳ To do
-|
-
-|
- First module (01 or 05) folder structure created, matching the template (CLAUDE.md §6.1)
-|
- ⏳ To do
-|
-
-|
- First public commit
-|
- ⏳ To do
-|
-
-|
- First tagged release (
-`v0.1`
-)
-|
- ⏳ To do
-|
-
-|
-
-`portfolio/`
- folder with ≥1 polished project
-|
- ⏳ To do
-|
-
-|
-
-`compbio_utils`
- v1.0 tagged release
-|
- ⏳ To do (target: Month 9)
-|
-
-|
- Repo linked from LinkedIn / CV / SOP
-|
- ⏳ To do
-|
+| Item | Status |
+|---|---|
+| Repo created (`computational-biology`, public) | ⏳ To do |
+| `README.md` (front door, 12-month plan visible) | ⏳ To do |
+| `ENVIRONMENT.md` + pinned dependencies + one-command bootstrap | ⏳ To do |
+| `.pre-commit-config.yaml` (jupytext + nbstripout) | ⏳ To do |
+| `utilities/compbio_utils` v0 seeded | ⏳ To do |
+| First module (01 or 05) folder structure created, matching the template (CLAUDE.md §6.1) | ⏳ To do |
+| First public commit | ⏳ To do |
+| First tagged release (`v0.1`) | ⏳ To do |
+| `portfolio/` folder with ≥1 polished project | ⏳ To do |
+| `compbio_utils` v1.0 tagged release | ⏳ To do (target: Month 9) |
+| Repo linked from LinkedIn / CV / SOP | ⏳ To do |
 
 ---
 
@@ -2612,18 +781,18 @@ Software Engineer.
 
 **Primary job sources (bookmark, check weekly):**
 
-* **IndiaBioscience.org/jobs** — the best-curated aggregator for these exact roles.
+- **IndiaBioscience.org/jobs** — the best-curated aggregator for these exact roles.
   A real 2026 example seen during research: an IISER Pune Project Associate-I role
   writing programs for biomolecular network dynamics in *M. tuberculosis* — an almost
   exact match for Module 12.
-* **Institute portals:** NCBS Bangalore (ncbs.res.in/careers — computational
+- **Institute portals:** NCBS Bangalore (ncbs.res.in/careers — computational
   neuroscience, systems biology, ecology), IISc Bangalore Dept. of Computational and
   Data Sciences (cds.iisc.ac.in), IBAB Bangalore (genomics, systems biology, structural
   biology/drug discovery), ICGEB, IGIB Delhi.
-* **Government-funded postings** (DBT/ICMR/CSIR/SERB-funded JRF/RA/PA roles): advertised
+- **Government-funded postings** (DBT/ICMR/CSIR/SERB-funded JRF/RA/PA roles): advertised
   on host-institute pages and aggregators (BioTecNika, mysarkarinaukri.com). Typical
   2026 compensation seen: ₹25,000–₹37,000/month depending on NET/GATE qualification.
-* **GATE/NET decision (still open, decide explicitly):** several JRF postings require
+- **GATE/NET decision (still open, decide explicitly):** several JRF postings require
   or strongly prefer CSIR/UGC-NET, GATE, or DST-INSPIRE qualification. Given the
   6-month window, decide by Month 2 whether sitting GATE (Life Sciences/Biotechnology,
   or the CS paper leaning on the computational angle) is worth the time cost — this is
@@ -2631,71 +800,26 @@ Software Engineer.
 
 **Interview-readiness, confirmed by current research (apply this to every Tier-1 module's assessment, not just as a final-month cram):**
 
-* Core algorithm mechanics asked cold: "How does BLAST work?" (Module 08) — must
+- Core algorithm mechanics asked cold: "How does BLAST work?" (Module 08) — must
   include k-mer seeding and heuristic extension, not a Wikipedia paraphrase.
-* NGS pipeline tool fluency: STAR, HISAT2, GATK, SAMtools, BWA — know what each does
+- NGS pipeline tool fluency: STAR, HISAT2, GATK, SAMtools, BWA — know what each does
   even before deep mastery (Module 09).
-* Basic statistics, asked directly: t-tests, distributions, multiple-testing correction
+- Basic statistics, asked directly: t-tests, distributions, multiple-testing correction
   (Module 03).
-* Unix/command-line comfort (Module 01).
-* "Explain this paper back to me" — handed cold, expected in plain English in under a
+- Unix/command-line comfort (Module 01).
+- "Explain this paper back to me" — handed cold, expected in plain English in under a
   few minutes (Module 19's Pass-3 practice, directly).
 
 **Month-by-month (mirrors §3, India-specific detail):**
 
-|
- Month
-|
- Focus
-|
-
-|
----
-
-|
----
-
-|
-
-|
- 1 (Jul)
-|
- Viva (2 Jul) takes priority; repo live; Modules 01/03/05 underway
-|
-
-|
- 2 (Aug)
-|
- Continue 01–05; draft a "Computational Biology Engineer" CV variant distinct from any academic CV; decide GATE sit/skip
-|
-
-|
- 3 (Sep)
-|
- First mini-project (Module 08 phylogenetics) public; register/refresh IndiaBioscience.org alerts; begin applying to roles wanting "programming + willingness to learn biology"
-|
-
-|
- 4 (Oct)
-|
- Module 09's differential-expression notebook complete — the single most job-relevant artifact; applications continue
-|
-
-|
- 5 (Nov)
-|
- Module 12's network-biology mini-project complete; targeted applications to network/systems-biology-flavored postings
-|
-
-|
- 6 (Dec)
-|
- Interviews, offer negotiation if applicable.
-**
-Regardless of outcome, the portfolio built in Months 1–5 carries forward into Track B.
-**
-
-|
+| Month | Focus |
+|---|---|
+| 1 (Jul) | Viva (2 Jul) takes priority; repo live; Modules 01/03/05 underway |
+| 2 (Aug) | Continue 01–05; draft a "Computational Biology Engineer" CV variant distinct from any academic CV; decide GATE sit/skip |
+| 3 (Sep) | First mini-project (Module 08 phylogenetics) public; register/refresh IndiaBioscience.org alerts; begin applying to roles wanting "programming + willingness to learn biology" |
+| 4 (Oct) | Module 09's differential-expression notebook complete — the single most job-relevant artifact; applications continue |
+| 5 (Nov) | Module 12's network-biology mini-project complete; targeted applications to network/systems-biology-flavored postings |
+| 6 (Dec) | Interviews, offer negotiation if applicable. **Regardless of outcome, the portfolio built in Months 1–5 carries forward into Track B.** |
 
 **Track A skills bar (Month 6 checkpoint — see §13 for the scored version):**
 comfortable explaining and defending Modules 01, 03, 05, 08, 09, 12 at interview depth;
@@ -2708,239 +832,35 @@ posting's required tools and map them to specific repo artifacts without improvi
 
 **Verified, current programmes (re-check every date — these move):**
 
-|
- Programme
-|
- Institution(s)
-|
- Country
-|
- Current state (June 2026)
-|
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
-
-**
-EMBL International PhD Programme (EIPP)
-**
-
-|
- Heidelberg, Barcelona, Grenoble, Hamburg, Hinxton/Cambridge, Rome
-|
- Multi-country
-|
- Two rounds/year.
-**
-The 2027 Winter Recruitment round opens September 2026
-**
- — calendar this. Themes explicitly include "Systems and Computational Biology" and "Bioinformatics and Artificial Intelligence." Fully funded.
-|
-
-|
-
-**
-IMPRS-BAC (Biology and Computation)
-**
-
-|
- Max Planck Institute for Molecular Genetics + Freie Universität Berlin
-|
- Germany
-|
- Historical deadline early January;
-**
-2027 projects to be announced autumn 2026.
-**
- Explicitly seeks candidates "at the interface between molecular life sciences and computational sciences" — near-exact fit for this program's Tier-1 set.
-|
-
-|
-
-**
-IMPRS-ML (Molecules of Life)
-**
-
-|
- MPI of Biochemistry + MPI for Biological Intelligence + LMU Munich + TUM
-|
- Germany
-|
- Lists computational biology alongside biochemistry/structural biology/biophysics/systems biology.
-**
-Next round: August 2026.
-**
-
-|
-
-|
-
-**
-IMPRS-CellDevoSys
-**
-
-|
- MPI-CBG Dresden
-|
- Germany
-|
- Interdisciplinary biology/physics/chemistry/CS; 2026 cycle currently open
-|
-
-|
-
-**
-FIMM-EMBL International PhD Programme
-**
-
-|
- FIMM / University of Helsinki
-|
- Finland
-|
- 2026 cycle closed Feb 2026 (Aug 2026 start) — watch for the next cycle, typically Dec–Feb. Explicitly covers AI, bioinformatics, data science, genomics, statistical genetics — direct Module 13 match.
-|
-
-|
-
-**
-SIB PhD Training Network
-**
-
-|
- Geneva, Lausanne, Basel, Zurich, Bern, Fribourg
-|
- Switzerland
-|
- Entry route is via a specific professor/group at a partner university, then joining the SIB network.
-**
-ECCB 2026 (31 Aug–4 Sept, Geneva)
-**
- is a concrete near-term networking opportunity.
-|
-
-|
- Wageningen / Helmholtz UFZ / TU Dresden / Aarhus / Luxembourg / CSH Vienna
-|
- NL/DE/DK/LU/AT
-|
- —
-|
- Remain the primary targets if specialization narrows toward Computational Ecology/ALife (Module 15's bridge); detail tracked here independently now that this project stands alone.
-|
+| Programme | Institution(s) | Country | Current state (June 2026) |
+|---|---|---|---|
+| **EMBL International PhD Programme (EIPP)** | Heidelberg, Barcelona, Grenoble, Hamburg, Hinxton/Cambridge, Rome | Multi-country | Two rounds/year. **The 2027 Winter Recruitment round opens September 2026** — calendar this. Themes explicitly include "Systems and Computational Biology" and "Bioinformatics and Artificial Intelligence." Fully funded. |
+| **IMPRS-BAC (Biology and Computation)** | Max Planck Institute for Molecular Genetics + Freie Universität Berlin | Germany | Historical deadline early January; **2027 projects to be announced autumn 2026.** Explicitly seeks candidates "at the interface between molecular life sciences and computational sciences" — near-exact fit for this program's Tier-1 set. |
+| **IMPRS-ML (Molecules of Life)** | MPI of Biochemistry + MPI for Biological Intelligence + LMU Munich + TUM | Germany | Lists computational biology alongside biochemistry/structural biology/biophysics/systems biology. **Next round: August 2026.** |
+| **IMPRS-CellDevoSys** | MPI-CBG Dresden | Germany | Interdisciplinary biology/physics/chemistry/CS; 2026 cycle currently open |
+| **FIMM-EMBL International PhD Programme** | FIMM / University of Helsinki | Finland | 2026 cycle closed Feb 2026 (Aug 2026 start) — watch for the next cycle, typically Dec–Feb. Explicitly covers AI, bioinformatics, data science, genomics, statistical genetics — direct Module 13 match. |
+| **SIB PhD Training Network** | Geneva, Lausanne, Basel, Zurich, Bern, Fribourg | Switzerland | Entry route is via a specific professor/group at a partner university, then joining the SIB network. **ECCB 2026 (31 Aug–4 Sept, Geneva)** is a concrete near-term networking opportunity. |
+| Wageningen / Helmholtz UFZ / TU Dresden / Aarhus / Luxembourg / CSH Vienna | NL/DE/DK/LU/AT | — | Remain the primary targets if specialization narrows toward Computational Ecology/ALife (Module 15's bridge); detail tracked here independently now that this project stands alone. |
 
 **3-quarter sequencing within the 12 months:**
 
-|
- Quarter
-|
- Focus
-|
-
-|
----
-
-|
----
-
-|
-
-|
- Q1 (Jul–Sep 2026)
-|
- Foundational modules; first portfolio piece; register/refresh ORCID/Scholar/EURAXESS-class trackers
-|
-
-|
- Q2 (Oct–Dec 2026)
-|
- Genomics/systems-biology portfolio pieces; Track A applications running in parallel; first informal outreach to professors whose recent papers overlap completed modules
-|
-
-|
- Q3 (Jan–Mar 2027)
-|
- ML-for-biology and RSE modules;
-`compbio_utils`
- v1.0; specialization decision at Month 9; first formal applications where deadlines align (EMBL Winter 2027, IMPRS-BAC 2027 projects)
-|
-
-|
- Q4 (Apr–Jun 2027)
-|
- Capstone; SOP/proposal finalized; remaining applications submitted; interviews likely beginning by the end of this window for the earliest-cycle programmes
-|
+| Quarter | Focus |
+|---|---|
+| Q1 (Jul–Sep 2026) | Foundational modules; first portfolio piece; register/refresh ORCID/Scholar/EURAXESS-class trackers |
+| Q2 (Oct–Dec 2026) | Genomics/systems-biology portfolio pieces; Track A applications running in parallel; first informal outreach to professors whose recent papers overlap completed modules |
+| Q3 (Jan–Mar 2027) | ML-for-biology and RSE modules; `compbio_utils` v1.0; specialization decision at Month 9; first formal applications where deadlines align (EMBL Winter 2027, IMPRS-BAC 2027 projects) |
+| Q4 (Apr–Jun 2027) | Capstone; SOP/proposal finalized; remaining applications submitted; interviews likely beginning by the end of this window for the earliest-cycle programmes |
 
 ---
 
 ## 8. CONFERENCES & PUBLICATION GOALS
 
-|
- Conference
-|
- Note
-|
-
-|
----
-
-|
----
-
-|
-
-|
-
-**
-ECCB 2026
-**
- — 25th European Conference on Computational Biology
-|
- 31 Aug–4 Sept 2026, Geneva, organized by SIB. Theme: "Biodiversity, AI & Health." This edition's submission deadlines have passed —
-**
-attend, don't submit
-**
-; target ECCB 2027/2028 for a real submission.
-|
-
-|
-
-**
-ISMB/ECCB
-**
- (alternating flagship series)
-|
- Track the next call directly via iscb.org
-|
-
-|
-
-**
-RECOMB
-**
-
-|
- Top algorithmic computational biology venue — aspirational submission target once a strong methods result exists
-|
-
-|
- ALIFE/ECAL-class venues
-|
- Relevant only if Module 15's specialization door opens — track independently if so
-|
+| Conference | Note |
+|---|---|
+| **ECCB 2026** — 25th European Conference on Computational Biology | 31 Aug–4 Sept 2026, Geneva, organized by SIB. Theme: "Biodiversity, AI & Health." This edition's submission deadlines have passed — **attend, don't submit**; target ECCB 2027/2028 for a real submission. |
+| **ISMB/ECCB** (alternating flagship series) | Track the next call directly via iscb.org |
+| **RECOMB** | Top algorithmic computational biology venue — aspirational submission target once a strong methods result exists |
+| ALIFE/ECAL-class venues | Relevant only if Module 15's specialization door opens — track independently if so |
 
 **Publication sequencing:**
 
@@ -2952,21 +872,21 @@ RECOMB
 
 ## 9. OPEN-SOURCE CONTRIBUTION GOALS
 
-* One real fix/feature merged into an existing tool used in this program (Biopython,
+- One real fix/feature merged into an existing tool used in this program (Biopython,
   scikit-bio, or Mesa) by Month 9 — Module 16's mini-project #13 is designed to produce
   exactly this.
-* Keep `compbio_utils` genuinely reusable (proper packaging, tests, docs) — aim for
+- Keep `compbio_utils` genuinely reusable (proper packaging, tests, docs) — aim for
   outside usability, don't force outside contributors.
 
 ---
 
 ## 10. NETWORKING STRATEGY
 
-* **India:** IndiaBioscience.org's community events/forums, not just its job board.
+- **India:** IndiaBioscience.org's community events/forums, not just its job board.
   Direct outreach to PIs at NCBS/IISc/IBAB whose recent papers overlap completed modules.
-* **Europe:** ECCB 2026 (Geneva, Aug–Sept) is the best near-term in-person opportunity
+- **Europe:** ECCB 2026 (Geneva, Aug–Sept) is the best near-term in-person opportunity
   actually on the calendar — attend even just the public forum day if travel isn't feasible.
-* **Online:** EMBL/IMPRS info sessions and webinars (run regularly — search for current
+- **Online:** EMBL/IMPRS info sessions and webinars (run regularly — search for current
   ones each cycle), ISAL community if Module 15's door opens, IndiaBioscience mailing lists.
 
 ---
@@ -2998,14 +918,14 @@ RECOMB
 
 ## 12. KNOWLEDGE GAPS (revisit list)
 
-* [ ] No formal biology background — Module 05 is genuinely first-pass, budget real time
-* [ ] Statistical hypothesis-testing rigor (multiple-testing correction, p-value
+- [ ] No formal biology background — Module 05 is genuinely first-pass, budget real time
+- [ ] Statistical hypothesis-testing rigor (multiple-testing correction, p-value
       interpretation) — hits hard in Module 09's differential-expression work
-* [ ] GATE/NET sit-or-skip decision — explicitly open, decide by Month 2
-* [ ] Whether AlphaFold-class methods' internals (vs. their outputs) get real
+- [ ] GATE/NET sit-or-skip decision — explicitly open, decide by Month 2
+- [ ] Whether AlphaFold-class methods' internals (vs. their outputs) get real
       understanding in Module 11 despite its Tier-3 budget — don't let this one slide
       to "just use the prediction"
-* [ ] Single-cell genomics depth — currently Tier 2/survey (Module 10); revisit if
+- [ ] Single-cell genomics depth — currently Tier 2/survey (Module 10); revisit if
       Track A/B signal points toward it specifically
 
 ---
@@ -3016,254 +936,46 @@ Score each 0–10. Recompute monthly. The trend matters more than any single num
 
 ### Research Readiness
 
-|
- Dimension
-|
- Score now
-|
- Month 6 target
-|
- Month 12 target
-|
-
-|
----
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Independent paper reading (Pass-3 success rate)
-|
- 0
-|
- 4
-|
- 7
-|
-
-|
- Implementation-from-scratch capability (core algorithms, not library calls)
-|
- 1
-|
- 5
-|
- 8
-|
-
-|
- Reproducible pipeline discipline
-|
- 1
-|
- 5
-|
- 8
-|
-
-|
- Scientific writing
-|
- 1
-|
- 4
-|
- 7
-|
-
-|
-
-**
-Composite
-**
-
-|
-
-**
-0.75/10
-**
-
-|
-
-**
-4.5/10
-**
-
-|
-
-**
-7.5/10
-**
-
-|
+| Dimension | Score now | Month 6 target | Month 12 target |
+|---|---|---|---|
+| Independent paper reading (Pass-3 success rate) | 0 | 4 | 7 |
+| Implementation-from-scratch capability (core algorithms, not library calls) | 1 | 5 | 8 |
+| Reproducible pipeline discipline | 1 | 5 | 8 |
+| Scientific writing | 1 | 4 | 7 |
+| **Composite** | **0.75/10** | **4.5/10** | **7.5/10** |
 
 ### Employment Readiness (Track A — India)
 
-|
- Dimension
-|
- Score now
-|
- Month 6 target
-|
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Biology domain knowledge
-|
- 0
-|
- 6
-|
-
-|
- Portfolio artifacts matching real job postings
-|
- 0
-|
- 7
-|
-
-|
- Interview-pattern readiness (BLAST mechanics, NGS tools, stats, Unix)
-|
- 0
-|
- 7
-|
-
-|
- Job-market mechanics (where to look, what to apply to)
-|
- 6
-|
- 8
-|
-
-|
-
-**
-Composite
-**
-
-|
-
-**
-1.5/10
-**
-
-|
-
-**
-7/10 — this is the Month 6 pass/fail bar
-**
-
-|
+| Dimension | Score now | Month 6 target |
+|---|---|---|
+| Biology domain knowledge | 0 | 6 |
+| Portfolio artifacts matching real job postings | 0 | 7 |
+| Interview-pattern readiness (BLAST mechanics, NGS tools, stats, Unix) | 0 | 7 |
+| Job-market mechanics (where to look, what to apply to) | 6 | 8 |
+| **Composite** | **1.5/10** | **7/10 — this is the Month 6 pass/fail bar** |
 
 ### PhD Readiness (Track B — Europe)
 
-|
- Dimension
-|
- Score now
-|
- Month 12 target
-|
-
-|
----
-
-|
----
-
-|
----
-
-|
-
-|
- Application materials (CV, SOP, proposal)
-|
- 0
-|
- 8
-|
-
-|
- Programme/professor target list
-|
- 7
-|
- 9
-|
-
-|
- Demonstrated research output (preprint, public repo, Capstone)
-|
- 0
-|
- 8
-|
-
-|
- Interview/outreach experience
-|
- 0
-|
- 6
-|
-
-|
-
-**
-Composite
-**
-
-|
-
-**
-1.75/10
-**
-
-|
-
-**
-7.75/10 — this is the Month 12 pass/fail bar
-**
-
-|
+| Dimension | Score now | Month 12 target |
+|---|---|---|
+| Application materials (CV, SOP, proposal) | 0 | 8 |
+| Programme/professor target list | 7 | 9 |
+| Demonstrated research output (preprint, public repo, Capstone) | 0 | 8 |
+| Interview/outreach experience | 0 | 6 |
+| **Composite** | **1.75/10** | **7.75/10 — this is the Month 12 pass/fail bar** |
 
 ---
 
 ## 14. FUTURE GOALS
 
-* [ ] Repository live and public within 14 days of this document's creation
-* [ ] First completed module (01 or 05) within 60 days
-* [ ] First Track A application sent by Month 3
-* [ ] Month 6: Track A readiness bar (§13) met — score and re-verify honestly, not optimistically
-* [ ] Month 9: Capstone topic chosen at the specialization checkpoint
-* [ ] Month 9: `compbio_utils` v1.0 tagged
-* [ ] Month 12: Track B readiness bar (§13) met, applications submitted
-* [ ] First conference attended (ECCB 2026 or equivalent) within the 12 months
+- [ ] Repository live and public within 14 days of this document's creation
+- [ ] First completed module (01 or 05) within 60 days
+- [ ] First Track A application sent by Month 3
+- [ ] Month 6: Track A readiness bar (§13) met — score and re-verify honestly, not optimistically
+- [ ] Month 9: Capstone topic chosen at the specialization checkpoint
+- [ ] Month 9: `compbio_utils` v1.0 tagged
+- [ ] Month 12: Track B readiness bar (§13) met, applications submitted
+- [ ] First conference attended (ECCB 2026 or equivalent) within the 12 months
 
 ---
 

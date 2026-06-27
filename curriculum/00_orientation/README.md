@@ -1,88 +1,78 @@
 # Module 00 — Orientation
 
-## Purpose
+**Depth tier:** Prerequisite — untiered; must complete before starting Module 01
+**Week budget:** 1–2 weeks (complete before beginning any other module)
+**Notebooks:** 13
+**Status:** ⏳ Not started
 
-Welcome to the Computational Biology Research Notebook.
+---
 
-Before learning Computational Biology, this module establishes the workflows, tools, and habits that will be used throughout the entire curriculum.
+## Motivation
 
-This module is mandatory.
+This module exists because the habits you establish in Week 1 compound across 52 weeks. Every reproducibility failure, every unreadable diff, every paper "read" without a Pass-3 log — these have downstream costs that cannot be recovered cheaply. Orientation is not optional.
 
-It teaches how to use the repository, manage reproducible research, organize notes, read scientific papers, write Jupyter notebooks, and maintain a research portfolio.
+The goal is not to learn computational biology. The goal is to learn how to learn it effectively inside this repository, with the tools that make the work credible to an outside reviewer (a recruiter, a PhD supervisor, a peer).
 
 ---
 
 ## Learning Objectives
 
-After completing this module, you should be able to:
+By the end of this module you will:
 
-* Navigate the repository structure.
-* Set up the development environment.
-* Use Git and GitHub confidently.
-* Work effectively with Jupyter Notebooks.
-* Follow the repository's notebook-first workflow.
-* Read research papers using the Three-Pass Method.
-* Understand the curriculum structure.
-* Track progress using `Learning_Progress.md`.
-* Maintain reproducible scientific workflows.
+- Have a fully working, reproducible environment installed and verified from scratch
+- Understand the repository architecture and be able to navigate it without the README
+- Execute the Git + Jupytext + nbstripout workflow fluently on a real commit
+- Know the Three-Pass paper-reading method and have logged one complete Pass-3 attempt in `paper-notes/`
+- Be able to recite the 13-step notebook teaching sequence from memory
+- Understand what "done" means for a notebook, a paper, and a portfolio artifact in this program
+- Have written your first weekly progress log in `progress/`
+
+---
+
+## Track A Relevance
+
+Orientation is a prerequisite, not a subject-matter module. However:
+
+- Unix and Git comfort are directly interview-tested at every Track A role identified in this program's research. This module is where that fluency begins.
+- A public, well-structured, well-documented GitHub repository is evaluated before any interview conversation starts. The habits established here determine what that repository looks like.
+- The Three-Pass paper-reading habit, started here and tracked weekly in `paper-notes/`, is the direct rehearsal for the "explain this paper cold" interview pattern that appears in bioinformatics engineer and RA interviews.
+
+## Track B Relevance
+
+The repository itself — its structure, its commit hygiene, its public accessibility — is evaluated as part of any Track B application. Orientation is what makes the repository credible rather than cosmetic.
 
 ---
 
 ## Prerequisites
 
-* Basic computer literacy
-* No Computational Biology knowledge required
+None. This is the first module.
 
 ---
 
-## Estimated Duration
+## Expected Outcomes
 
-**5–7 days**
+After completing this module:
 
----
-
-## Deliverables
-
-By the end of this module you will have:
-
-* Configured your development environment.
-* Created your first Jupyter notebook.
-* Made your first Git commit.
-* Learned the repository workflow.
-* Read your first Computational Biology paper.
-* Written your first literature note.
+- [ ] `scripts/verify_environment.py` passes all checks
+- [ ] First commit pushed to the public `computational-biology` repository
+- [ ] Pass-3 reconstruction of Wilson et al. (2017) logged in `paper-notes/`
+- [ ] First weekly progress log entry written in `progress/`
+- [ ] The 13-step lesson sequence can be recited unprompted
 
 ---
 
-## Repository Workflow
+## Module Roadmap
 
-```text
-Read roadmap
-        ↓
-Open notebook
-        ↓
-Study theory
-        ↓
-Write code
-        ↓
-Complete exercises
-        ↓
-Read research paper
-        ↓
-Write reflection
-        ↓
-Commit changes
-```
+See [`roadmap.md`](roadmap.md) for the full ordered notebook sequence.
+
+## References
+
+See [`references.md`](references.md) for books, tools, documentation, and key resources.
+
+## Papers
+
+See [`papers.md`](papers.md) for reading assignments with timing, difficulty, and Pass-3 guidance.
 
 ---
 
-## Assessment
-
-Before moving to Module 01, you should be able to:
-
-* Explain the repository structure.
-* Create and activate a virtual environment.
-* Run JupyterLab.
-* Commit changes with Git.
-* Read a paper using the Three-Pass Method.
-* Maintain organized notebook documentation.
+*See also: [CLAUDE.md](../../CLAUDE.md) §4.1 (mandatory lesson order), §7.2 (reproducibility toolchain), §8 (Three-Pass Method) — [ENVIRONMENT.md](../../ENVIRONMENT.md) for the full setup guide*
