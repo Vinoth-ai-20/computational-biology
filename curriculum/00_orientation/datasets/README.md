@@ -4,6 +4,7 @@ Module 00 (Orientation) does not use biological datasets. This folder is a place
 to maintain the standard module directory template.
 
 Datasets begin in Module 01 (Python & Scientific Computing):
+
 - A small GEO expression dataset (6–12 samples) — accession to be selected
 - A gene family FASTA fetched via NCBI Entrez
 

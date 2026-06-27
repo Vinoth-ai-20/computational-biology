@@ -7,6 +7,7 @@
 Write one paragraph describing what the Month 3 artifact (Module 08 phylogenetics pipeline) will contain.
 
 Answer these three questions in the paragraph:
+
 1. What is the biological question?
 2. What dataset will you use?
 3. What will a reader be able to do after reading the notebook?
@@ -20,7 +21,7 @@ Answer these three questions in the paragraph:
 Apply the portfolio polishing checklist to any existing notebook you have:
 
 | Checklist item | Pass (✓/✗) |
-|---------------|-----------|
+| --------------- | ----------- |
 | Runs top-to-bottom from clean clone | |
 | Every function has a one-line docstring | |
 | Every visualization has title, labels, units | |

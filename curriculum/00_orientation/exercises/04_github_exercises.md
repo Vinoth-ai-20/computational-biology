@@ -5,6 +5,7 @@
 ## Exercise 1 — Make the repository public
 
 Run:
+
 ```bash
 gh repo edit --visibility public --yes
 ```
@@ -27,6 +28,7 @@ git push
 ```
 
 Wait ~2 minutes. Check:
+
 ```bash
 gh run list
 ```
@@ -39,7 +41,7 @@ gh run list
 
 ## Exercise 3 — Elevator pitch
 
-Write a one-sentence elevator pitch for this repository in your own words.  
+Write a one-sentence elevator pitch for this repository in your own words.
 Constraint: it must make sense to a PhD supervisor who has never heard of "depth-tiered curriculum."
 
 **Your elevator pitch:**

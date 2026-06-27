@@ -9,7 +9,7 @@ Using PubMed or Semantic Scholar, find three papers relevant to Module 01 (Pytho
 For each, record the DOI and a one-sentence annotation.
 
 | Paper | DOI | One-sentence annotation |
-|-------|-----|------------------------|
+| ------- | ----- | ------------------------ |
 | | | |
 | | | |
 | | | |
@@ -32,9 +32,9 @@ Download Zotero from zotero.org. Install the browser extension. Save Wilson et a
 
 ---
 
-## Exercise 3 — Pass 1 of Wilson et al.
+## Exercise 3 — Pass 1 of Wilson et al
 
-Open `paper-notes/wilson_2017_good_enough_practices.md`.  
+Open `paper-notes/wilson_2017_good_enough_practices.md`.
 Fill in the **Pass 1** section only (5–10 minute skim).
 
 What is the paper's main claim in one sentence?

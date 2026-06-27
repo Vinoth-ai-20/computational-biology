@@ -23,11 +23,13 @@ Confirm it returns.
 ## Exercise 2 — Editable install
 
 If not already done:
+
 ```bash
 pip install -e utilities/compbio_utils
 ```
 
 In a Python cell, run:
+
 ```python
 import compbio_utils
 print(compbio_utils.__version__)
@@ -40,6 +42,7 @@ print(compbio_utils.__version__)
 ## Exercise 3 — Editable vs regular install
 
 In your own words, what is the difference between:
+
 - `pip install seaborn`
 - `pip install -e utilities/compbio_utils`
 

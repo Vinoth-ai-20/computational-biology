@@ -7,7 +7,7 @@ This module has a short, essential reading list. All three papers are read via t
 ## Reading List
 
 | Paper | Type | Why it matters | When to read | Difficulty | Prerequisites | Pass-3 required |
-|-------|------|----------------|--------------|------------|---------------|-----------------|
+| ------- | ------ | ---------------- | -------------- | ------------ | --------------- | ----------------- |
 | Wilson et al. (2017), *Good enough practices in scientific computing*, PLOS Computational Biology. DOI: 10.1371/journal.pcbi.1005510 | Foundational | Sets the concrete standard for every notebook, every piece of code, and every dataset in this entire program. The reproducibility checklist in Notebook 12 is derived directly from this paper. | Day 1, before Notebook 07 | Easy | None | **Yes — Module 00 assessment** |
 | Wilkinson et al. (2016), *The FAIR Guiding Principles for scientific data management and stewardship*, Scientific Data. DOI: 10.1038/sdata.2016.18 | Foundational | Two readable pages. Defines the four principles this repository's `datasets/` structure and documentation are designed to satisfy. Directly applicable to every module's dataset folder. | Day 1, after Wilson et al. | Easy | None | No — one-paragraph written summary required |
 | Keshav (2007), *How to Read a Paper*, ACM SIGCOMM Computer Communication Review | Methodology | One page. The source of the Three-Pass Method. Read it before Notebook 09 — it takes five minutes and directly shapes how every other paper in this program gets read. | Day 5, before Notebook 09 | Easy | None | No — it is itself about how to read; practicing it on Wilson et al. is sufficient |

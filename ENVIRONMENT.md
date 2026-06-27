@@ -31,7 +31,7 @@ This document is the single source of truth for setting up and reproducing the c
 ## 1. Supported Operating Systems
 
 | OS | Status | Notes |
-|----|--------|-------|
+| ---- | -------- | ------- |
 | Windows 11 (primary) | Fully supported | Use Windows Terminal + PowerShell 7 |
 | macOS 13+ | Fully supported | Use iTerm2 or built-in Terminal |
 | Ubuntu 22.04 / Debian 12 | Fully supported | Standard Linux setup |
@@ -43,7 +43,7 @@ This document is the single source of truth for setting up and reproducing the c
 ## 2. Hardware Recommendations
 
 | Component | Minimum | Recommended |
-|-----------|---------|-------------|
+| ----------- | --------- | ------------- |
 | CPU | 4 cores | 8+ cores |
 | RAM | 16 GB | 32 GB |
 | Storage | 20 GB free | 100 GB SSD |
@@ -95,7 +95,7 @@ gh auth login
 ### Recommended Terminal
 
 | Platform | Recommendation |
-|----------|---------------|
+| ---------- | --------------- |
 | Windows | Windows Terminal (Microsoft Store) + PowerShell 7 |
 | macOS | iTerm2 or built-in Terminal |
 | Linux | Any modern terminal emulator |
@@ -280,7 +280,7 @@ papermill notebooks/09_differential_expression.ipynb \
 ### Required extensions
 
 | Extension | Extension ID | Purpose |
-|-----------|-------------|---------|
+| ----------- | ------------- | --------- |
 | Python | `ms-python.python` | Python language support |
 | Pylance | `ms-python.vscode-pylance` | Type checking and IntelliSense |
 | Jupyter | `ms-toolsai.jupyter` | Notebook editing |
@@ -459,7 +459,7 @@ python scripts/verify_environment.py
 
 Expected output:
 
-```
+```text
 Python 3.12.x        ✓
 NumPy 1.26.x         ✓
 SciPy 1.12.x         ✓

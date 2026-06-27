@@ -4,11 +4,11 @@
 
 ## Exercise 1 — Complete all three passes
 
-Complete all three passes of Wilson et al. (2017).  
+Complete all three passes of Wilson et al. (2017).
 Fill in every section of `paper-notes/wilson_2017_good_enough_practices.md`.
 
-**Date Pass 1 completed:**  
-**Date Pass 2 completed:**  
+**Date Pass 1 completed:**
+**Date Pass 2 completed:**
 **Date Pass 3 completed:**
 
 ---

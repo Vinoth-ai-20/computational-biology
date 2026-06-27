@@ -5,6 +5,7 @@
 ## Exercise 1 — Read the commit graph
 
 Run in terminal:
+
 ```bash
 git log --oneline --graph --all
 ```

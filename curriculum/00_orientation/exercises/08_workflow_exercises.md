@@ -4,13 +4,13 @@
 
 ## Exercise 1 — Wilson et al. audit on existing code
 
-Take any piece of code from a personal project. Paste it below (or summarize it).  
+Take any piece of code from a personal project. Paste it below (or summarize it).
 Apply the 10-item audit from Notebook 08 Cell 6.2.
 
 **Code description:**
 
 | Practice | Pass (✓/✗) | Notes |
-|----------|-----------|-------|
+| ---------- | ----------- | ------- |
 | Version controlled | | |
 | Clear function name | | |
 | Docstring | | |
@@ -46,9 +46,9 @@ def normalize_counts(counts, pseudocount: float = 0.5):
 3. `total = sum(counts) + pseudocount * len(counts)` —
 4. `return [math.log2((c + pseudocount) / total * 1e6) for c in counts]` —
 
-**Answer (before looking it up):**  
-Why pseudocount?  
-What does 1e6 represent?  
+**Answer (before looking it up):**
+Why pseudocount?
+What does 1e6 represent?
 What does log2 do to the scale?
 
 ---

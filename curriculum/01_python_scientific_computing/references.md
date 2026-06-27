@@ -23,32 +23,32 @@
 ## Official Documentation — Bookmark These
 
 | Resource | URL | When to consult |
-|----------|-----|----------------|
-| NumPy documentation | https://numpy.org/doc/ | Continuously — especially the user guide for broadcasting |
-| SciPy documentation | https://docs.scipy.org/doc/scipy/ | Notebooks 11–12 and whenever a SciPy function's behavior is unclear |
-| Pandas documentation | https://pandas.pydata.org/docs/ | Notebooks 08–09; the "User Guide" section is more useful than the API reference for learning |
-| Matplotlib documentation | https://matplotlib.org/stable/ | Notebook 10; the gallery is the fastest way to find a plot type |
-| Seaborn documentation | https://seaborn.pydata.org/ | Notebook 10 |
-| Biopython Tutorial and Cookbook | https://biopython.org/DIST/docs/tutorial/Tutorial.html | Notebooks 16 and throughout Modules 08–09 |
-| scikit-bio documentation | http://scikit-bio.org/docs/latest/ | Supplementary to Biopython |
+| ---------- | ----- | ---------------- |
+| NumPy documentation | <https://numpy.org/doc/> | Continuously — especially the user guide for broadcasting |
+| SciPy documentation | <https://docs.scipy.org/doc/scipy/> | Notebooks 11–12 and whenever a SciPy function's behavior is unclear |
+| Pandas documentation | <https://pandas.pydata.org/docs/> | Notebooks 08–09; the "User Guide" section is more useful than the API reference for learning |
+| Matplotlib documentation | <https://matplotlib.org/stable/> | Notebook 10; the gallery is the fastest way to find a plot type |
+| Seaborn documentation | <https://seaborn.pydata.org/> | Notebook 10 |
+| Biopython Tutorial and Cookbook | <https://biopython.org/DIST/docs/tutorial/Tutorial.html> | Notebooks 16 and throughout Modules 08–09 |
+| scikit-bio documentation | <http://scikit-bio.org/docs/latest/> | Supplementary to Biopython |
 
 ---
 
 ## Online Tutorials and Courses
 
 | Resource | URL | Notes |
-|----------|-----|-------|
-| Software Carpentry: Programming with Python | https://swcarpentry.github.io/python-novice-inflammation/ | A good baseline check — skip if the Notebook 02 diagnostic passes cleanly |
-| Software Carpentry: The Unix Shell | https://swcarpentry.github.io/shell-novice/ | Required companion for Notebook 17 (Unix CLI). Work through it before or alongside that notebook. |
-| NumPy for Absolute Beginners | https://numpy.org/doc/stable/user/absolute_beginners.html | Best first read for NumPy if Notebook 04 reveals unexpected gaps |
-| Real Python | https://realpython.com | Targeted lookup for specific Python patterns — not a course to follow serially |
+| ---------- | ----- | ------- |
+| Software Carpentry: Programming with Python | <https://swcarpentry.github.io/python-novice-inflammation/> | A good baseline check — skip if the Notebook 02 diagnostic passes cleanly |
+| Software Carpentry: The Unix Shell | <https://swcarpentry.github.io/shell-novice/> | Required companion for Notebook 17 (Unix CLI). Work through it before or alongside that notebook. |
+| NumPy for Absolute Beginners | <https://numpy.org/doc/stable/user/absolute_beginners.html> | Best first read for NumPy if Notebook 04 reveals unexpected gaps |
+| Real Python | <https://realpython.com> | Targeted lookup for specific Python patterns — not a course to follow serially |
 
 ---
 
 ## Key Software — Pinned Versions
 
 | Package | Version | Purpose | Install |
-|---------|---------|---------|---------|
+| --------- | --------- | --------- | --------- |
 | NumPy | ≥ 1.26 | Core array operations | `pip install numpy` |
 | SciPy | ≥ 1.12 | Optimization, integration, ODE solvers | `pip install scipy` |
 | Pandas | ≥ 2.2 | Tabular biological data | `pip install pandas` |
@@ -67,7 +67,7 @@
 ## Key Researchers and Labs
 
 | Name | Affiliation | Relevance |
-|------|-------------|-----------|
+| ------ | ------------- | ----------- |
 | Jake VanderPlas | Google | Author of the Python Data Science Handbook; major contributor to the scientific Python ecosystem |
 | Wes McKinney | Posit (formerly RStudio) | Creator of Pandas — understanding his design decisions explains Pandas' API choices |
 | Travis Oliphant | NumFOCUS | Creator of NumPy and SciPy; his writings on array programming are worth reading |

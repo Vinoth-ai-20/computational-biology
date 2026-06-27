@@ -46,7 +46,7 @@ See [CLAUDE.md](CLAUDE.md) for the full project constitution and [Learning_Progr
 
 ## Repository Architecture
 
-```
+```bash
 computational-biology/
 ├── README.md                          ← this file
 ├── ENVIRONMENT.md                     ← exact setup, pinned versions, one-command bootstrap
@@ -91,7 +91,7 @@ computational-biology/
 Every module folder contains:
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `README.md` | Objectives, depth tier, week-budget, Track A/B relevance |
 | `roadmap.md` | Ordered notebook sequence, exercises, assignments, mini-projects |
 | `references.md` | Books, documentation, key software, key labs, key researchers |
@@ -107,7 +107,7 @@ Every module folder contains:
 ## Curriculum Overview
 
 | # | Module | Tier | Notebooks | Status |
-|---|--------|------|-----------|--------|
+| --- | -------- | ------ | ----------- | -------- |
 | 00 | Orientation | Prerequisite | 13 | ⏳ Not started |
 | 01 | Python & Scientific Computing | **Tier 1** | 20 | ⏳ 0 / 20 |
 | 02 | Mathematics for Biology | Tier 2 | 12 | ⏳ 0 / 12 |
@@ -141,7 +141,7 @@ Every module folder contains:
 Parallel tracks — multiple modules are active in any given month. The sprint calendar is a planning tool, not a contract.
 
 | Month | Period | Active Modules | Key Milestone |
-|-------|--------|----------------|---------------|
+| ------- | -------- | ---------------- | --------------- |
 | 1 | Jul 2026 | 01, 03, 05 | Repository live; environment working |
 | 2 | Aug 2026 | 01, 02, 03, 04, 05 | First public commits; ORCID/EURAXESS registered |
 | 3 | Sep 2026 | 03, 05, 06, 07, 08 | First mini-project public — **Quarterly checkpoint 1** |
@@ -164,7 +164,7 @@ Parallel tracks — multiple modules are active in any given month. The sprint c
 **Scientific Python stack:**
 
 | Library | Purpose |
-|---------|---------|
+| --------- | --------- |
 | NumPy, SciPy | Numerical computing, ODE solvers, optimization |
 | Pandas | Tabular data and biological metadata |
 | Matplotlib, Seaborn | Scientific visualization |
@@ -181,7 +181,7 @@ Parallel tracks — multiple modules are active in any given month. The sprint c
 **Infrastructure:**
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | JupyterLab + Jupytext | Notebooks paired with `.py` files for git-diffable history |
 | nbstripout | Strip outputs before commit — keeps diffs readable |
 | papermill | Parametric notebook re-execution |
@@ -235,7 +235,7 @@ Follow the Three-Pass Method documented in [`CLAUDE.md`](CLAUDE.md) §8. Log eve
 Every notebook follows this 13-step sequence. It never compresses under time pressure. The lever for managing the 12-month constraint is module tier — fewer notebooks, less mini-project scope — never a shortcut through this sequence.
 
 | Step | Description |
-|------|-------------|
+| ------ | ------------- |
 | 1 | **Motivation** — why does this exist? What real problem does it solve? |
 | 2 | **Intuition** — plain language, concrete analogy, no jargon yet |
 | 3 | **Biological background** — the real biology underneath, even for math-heavy topics |
@@ -255,7 +255,7 @@ Every notebook follows this 13-step sequence. It never compresses under time pre
 ## Progress
 
 | Tracker | Current |
-|---------|---------|
+| --------- | --------- |
 | Notebooks completed | 0 / ~164 |
 | Papers read (Pass 3 logged) | 0 |
 | Portfolio artifacts | 0 |

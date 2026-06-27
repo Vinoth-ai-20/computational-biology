@@ -7,7 +7,7 @@ Module 01 is primarily a software and methods module rather than a biology liter
 ## Reading List
 
 | Paper | Type | Why it matters | When to read | Difficulty | Prerequisites | Pass-3 required |
-|-------|------|----------------|--------------|------------|---------------|-----------------|
+| ------- | ------ | ---------------- | -------------- | ------------ | --------------- | ----------------- |
 | Wilson et al. (2017), *Good enough practices in scientific computing*, PLOS Computational Biology. DOI: 10.1371/journal.pcbi.1005510 | Foundational | The literal audit checklist applied to `compbio_utils` v0 in Notebook 18 and Assignment A02. Already read via Pass-3 in Module 00 — re-apply here as a code audit against real code being written. | Week 1 (reviewed again in Week 6 during Assignment A02) | Easy | None | Already done in Module 00; re-apply as audit |
 | Harris et al. (2020), *Array programming with NumPy*, Nature. DOI: 10.1038/s41586-020-2649-2 | Software paper | The canonical NumPy citation. Relevant for understanding the design philosophy behind broadcasting, ufuncs, and the memory layout choices that make vectorization fast. | Week 3, after Notebook 05 | Easy | NumPy basics (Notebook 04) | No — Pass 1 plus one-paragraph summary |
 | Virtanen et al. (2020), *SciPy 1.0: Fundamental algorithms for scientific computing in Python*, Nature Methods. DOI: 10.1038/s41592-019-0686-2 | Software paper | The canonical SciPy citation. Read the introduction and the section describing `solve_ivp` and its relationship to ODEPACK. Directly relevant to Notebook 12. | Week 4–5, before Notebook 11 | Easy–Moderate | Basic SciPy usage | No — Pass 1 plus the `solve_ivp` section at Pass 2 depth |
@@ -44,7 +44,7 @@ This note applies to every software paper encountered throughout the program.
 These papers appear in downstream modules but connect directly to the foundation laid in Module 01:
 
 | Paper | Module | Connection to Module 01 |
-|-------|--------|------------------------|
+| ------- | -------- | ------------------------ |
 | Altschul et al. (1990), *Basic local alignment search tool*, J. Mol. Biol. | Module 08 | The k-mer seeding step uses NumPy array operations established in Notebooks 04–05 |
 | Love, Huber & Anders (2014), DESeq2, Genome Biology | Module 09 | Differential expression statistics build on Module 03; the data loading and preprocessing use Pandas patterns established in Notebooks 08–09 |
 | Wolf, Angerer & Theis (2018), SCANPY, Genome Biology | Module 10 | Scanpy's `AnnData` object is a Pandas-and-NumPy-backed data structure; understanding it requires Module 01 fluency |

@@ -7,7 +7,7 @@
 From Notebook 13 Cell 6.1, list every ✗ item:
 
 | Failed practice | Concrete fix plan | Target date |
-|----------------|-------------------|-------------|
+| ---------------- | ------------------- | ------------- |
 | | | |
 | | | |
 
@@ -50,6 +50,7 @@ Check each item in Notebook 13 Cell 6.3 (completion gate) and confirm it is done
 - [ ] One-command bootstrap tested from scratch
 
 **After all 8 are checked:**
+
 1. Update `roadmap.md` completion checklist
 2. Update `Learning_Progress.md` §4 Module 00 status to `✓ Complete`
 3. Commit and push

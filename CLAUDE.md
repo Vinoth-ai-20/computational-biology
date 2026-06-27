@@ -16,7 +16,7 @@ v1.0 was built on a wrong assumption and a wrong shape. This version exists to c
 both. Read this table once, then never re-litigate these decisions casually.
 
 | Weakness in v1.0 | Why it was wrong | Fix in v2.0 |
-|---|---|---|
+| --- | --- | --- |
 | Assumed a 3–4 year timeline | The real constraint is **~12 months** to be competitive for 2027-intake European PhD positions, with a parallel 6-month India employability target | The entire structure is rebuilt as a 12-month **Research Notebook**, not a graduate-school syllabus — see §1 |
 | 11 coarse modules with no subtopic breakdown | Not actionable week-to-week; impossible to tell what "done" means | 20 modules, each broken down to individual notebook-level subtopics in the tracker |
 | Entangled with the PhD and Second Brain projects (repo named `computational-biology-university`, heavy cross-referencing) | The person explicitly wants this repository and project **independent** | Repo renamed `computational-biology`; this project is now self-contained — see §2 |
@@ -73,7 +73,7 @@ sequenced by leverage, inside a hard 12-month box.** Four techniques make this w
 ### 1.2 Depth tiers (apply to every module, no exceptions)
 
 | Tier | Meaning | Standard |
-|---|---|---|
+| --- | --- | --- |
 | **Tier 1 — Master** | Can implement the core method from scratch, defend every design choice in an interview, and teach it to someone else | Full notebook sequence (15–20 notebooks), full papers.md, a polished portfolio artifact |
 | **Tier 2 — Working competence** | Can use the standard tools correctly, explain what they do and why, and recognize when something looks wrong | Shorter notebook sequence (10–14), a smaller papers.md, at least one mini-project |
 | **Tier 3 — Survey** | Knows the landscape, key terms, and where to go deep later if a real signal demands it | Short notebook sequence (6–8), 2–3 key papers, no mini-project required |
@@ -163,7 +163,7 @@ simpler analogy before re-attempting.
 
 ## 6. REPOSITORY ARCHITECTURE
 
-```
+```bash
 computational-biology/
 ├── README.md                          ← front door: what this is, 12-month plan at a glance, how to navigate
 ├── ENVIRONMENT.md                     ← exact setup, pinned versions, one-command bootstrap
@@ -359,7 +359,7 @@ research into what these interviews/applications actually test:
 ## CHANGELOG
 
 | Version | Date | Change |
-|---|---|---|
+| --- | --- | --- |
 | 1.0 | 27 June 2026 | Initial creation (3–4 year curriculum, 11 modules) |
 | 2.0 | 27 June 2026 | Full redesign: 12-month Research Notebook, 20 tiered modules, independent repository, new per-module template, reproducibility toolchain, explicit Track A/B mapping |
 

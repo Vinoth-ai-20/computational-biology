@@ -5,6 +5,7 @@ is through the exercises in `exercises/` (one file per notebook) and the complet
 checklist in `roadmap.md`.
 
 Formal assignments begin in Module 01:
+
 - A01: Expression Matrix Pipeline
 - A02: `compbio_utils` v0 Audit
 
