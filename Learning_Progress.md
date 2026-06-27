@@ -117,26 +117,26 @@ baseline for every Track A role.
 
 **roadmap.md (notebook sequence):**
 
-1. Environment setup (uv/conda, Jupyter, VS Code) — one-command bootstrap
-2. Python syntax refresher — diagnostic quiz first, skip what's already solid
-3. Functions, modules, packaging basics
-4. NumPy fundamentals
-5. Broadcasting & vectorization
-6. Linear algebra operations in NumPy
-7. Random number generation & reproducible seeding
-8. Pandas fundamentals
-9. Data cleaning for biological data
-10. Matplotlib + Seaborn scientific plotting
-11. SciPy: optimization
-12. SciPy: numerical integration & ODE solvers
-13. Writing reusable scientific code (function → module → package)
-14. Testing scientific code with `pytest`
-15. Packaging & publishing basics (`pyproject.toml`)
-16. Biopython fundamentals (`SeqIO`, `SeqRecord`)
-17. Unix/command-line literacy for bioinformatics workflows
-18. Mini project: `compbio_utils` v0
-19. Research paper reading session
-20. Module assessment + Track-A mock interview drill (Unix + NumPy + a FizzBuzz-style live-coding warm-up)
+- [ ] Environment setup (uv/conda, Jupyter, VS Code) — one-command bootstrap
+- [ ] Python syntax refresher — diagnostic quiz first, skip what's already solid
+- [ ] Functions, modules, packaging basics
+- [ ] NumPy fundamentals
+- [ ] Broadcasting & vectorization
+- [ ] Linear algebra operations in NumPy
+- [ ] Random number generation & reproducible seeding
+- [ ] Pandas fundamentals
+- [ ] Data cleaning for biological data
+- [ ] Matplotlib + Seaborn scientific plotting
+- [ ] SciPy: optimization
+- [ ] SciPy: numerical integration & ODE solvers
+- [ ] Writing reusable scientific code (function → module → package)
+- [ ] Testing scientific code with `pytest`
+- [ ] Packaging & publishing basics (`pyproject.toml`)
+- [ ] Biopython fundamentals (`SeqIO`, `SeqRecord`)
+- [ ] Unix/command-line literacy for bioinformatics workflows
+- [ ] Mini project: `compbio_utils` v0
+- [ ] Research paper reading session
+- [ ] Module assessment + Track-A mock interview drill (Unix + NumPy + a FizzBuzz-style live-coding warm-up)
 
 **papers.md:**
 
@@ -158,18 +158,18 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why math for biology — motivating cases
-2. Functions, limits, derivatives refresher
-3. Integrals & area-under-curve intuition
-4. Exponential & logistic growth models
-5. Difference equations vs. differential equations
-6. First-order ODEs: separable equations
-7. Numerical ODE solving: Euler method
-8. Numerical ODE solving: Runge-Kutta (RK4)
-9. Systems of ODEs: Lotka-Volterra predator-prey
-10. Discrete math basics: graphs & combinatorics for sequence counting
-11. Optimization intuition: gradient descent by hand, then in code
-12. Mini project + assessment: Lotka-Volterra solver, phase portrait
+- [ ] Why math for biology — motivating cases
+- [ ] Functions, limits, derivatives refresher
+- [ ] Integrals & area-under-curve intuition
+- [ ] Exponential & logistic growth models
+- [ ] Difference equations vs. differential equations
+- [ ] First-order ODEs: separable equations
+- [ ] Numerical ODE solving: Euler method
+- [ ] Numerical ODE solving: Runge-Kutta (RK4)
+- [ ] Systems of ODEs: Lotka-Volterra predator-prey
+- [ ] Discrete math basics: graphs & combinatorics for sequence counting
+- [ ] Optimization intuition: gradient descent by hand, then in code
+- [ ] Mini project + assessment: Lotka-Volterra solver, phase portrait
 
 **papers.md:**
 
@@ -191,24 +191,24 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why statistics is the actual interview topic — motivation
-2. Descriptive statistics & distributions
-3. Probability fundamentals (Bayes, conditional probability)
-4. The Normal distribution & Central Limit Theorem
-5. Hypothesis testing fundamentals
-6. t-tests (one-sample, two-sample, paired)
-7. ANOVA basics
-8. Non-parametric tests (Mann-Whitney, Wilcoxon)
-9. Correlation vs. causation; Pearson vs. Spearman
-10. p-values: what they actually mean, and the common misinterpretations
-11. Multiple testing correction (Bonferroni, Benjamini-Hochberg/FDR)
-12. Power analysis & sample size basics
-13. Bayesian statistics intuition
-14. Resampling methods: bootstrap, permutation tests
-15. Regression: linear & logistic
-16. Applying all of the above to a toy expression dataset
-17. Mini project: full statistical report, real public dataset, FDR-corrected
-18. Module assessment + mock interview: "walk me through testing whether this gene is differentially expressed"
+- [ ] Why statistics is the actual interview topic — motivation
+- [ ] Descriptive statistics & distributions
+- [ ] Probability fundamentals (Bayes, conditional probability)
+- [ ] The Normal distribution & Central Limit Theorem
+- [ ] Hypothesis testing fundamentals
+- [ ] t-tests (one-sample, two-sample, paired)
+- [ ] ANOVA basics
+- [ ] Non-parametric tests (Mann-Whitney, Wilcoxon)
+- [ ] Correlation vs. causation; Pearson vs. Spearman
+- [ ] p-values: what they actually mean, and the common misinterpretations
+- [ ] Multiple testing correction (Bonferroni, Benjamini-Hochberg/FDR)
+- [ ] Power analysis & sample size basics
+- [ ] Bayesian statistics intuition
+- [ ] Resampling methods: bootstrap, permutation tests
+- [ ] Regression: linear & logistic
+- [ ] Applying all of the above to a toy expression dataset
+- [ ] Mini project: full statistical report, real public dataset, FDR-corrected
+- [ ] Module assessment + mock interview: "walk me through testing whether this gene is differentially expressed"
 
 **papers.md:**
 
@@ -230,16 +230,16 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why linear algebra for biology — PCA on expression data, adjacency matrices
-2. Vectors, dot products, norms
-3. Matrices & matrix multiplication
-4. Eigenvalues & eigenvectors — intuition first
-5. PCA from first principles, then from scratch in NumPy
-6. Singular Value Decomposition — its connection to PCA
-7. Matrices as graphs: adjacency & Laplacian matrices
-8. Linear regression as a linear algebra problem
-9. Mini project: PCA on a real public expression dataset
-10. Module assessment
+- [ ] Why linear algebra for biology — PCA on expression data, adjacency matrices
+- [ ] Vectors, dot products, norms
+- [ ] Matrices & matrix multiplication
+- [ ] Eigenvalues & eigenvectors — intuition first
+- [ ] PCA from first principles, then from scratch in NumPy
+- [ ] Singular Value Decomposition — its connection to PCA
+- [ ] Matrices as graphs: adjacency & Laplacian matrices
+- [ ] Linear regression as a linear algebra problem
+- [ ] Mini project: PCA on a real public expression dataset
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -261,24 +261,24 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why this module is not optional — honest framing of starting from zero
-2. Cell structure & function
-3. DNA, RNA, proteins: the central dogma
-4. Chromosomes, genes, the genome — scale and organization
-5. Mendelian genetics & Punnett squares
-6. Population genetics: allele frequencies, Hardy-Weinberg equilibrium
-7. Genetic drift, mutation, migration — simulate departures from Hardy-Weinberg
-8. Natural selection & fitness — intuition and simple models
-9. Speciation & phylogenetic thinking
-10. Cell signaling & gene regulation — sets up systems biology later
-11. Basic ecology & population biology (food webs, carrying capacity) — bridges to Module 15
-12. Human genetics & disease — motivating context for Module 09
-13. Reading a research-grade biology figure/diagram correctly
-14. The 50 vocabulary terms that appear in nearly every paper you'll read this year
-15. Mini project: Hardy-Weinberg + genetic drift simulator from scratch
-16. Mini project: "biology for computer scientists" explainer notebook
-17. Research paper reading session
-18. Module assessment + Track-A mock interview: explain the central dogma and Hardy-Weinberg without notes
+- [ ] Why this module is not optional — honest framing of starting from zero
+- [ ] Cell structure & function
+- [ ] DNA, RNA, proteins: the central dogma
+- [ ] Chromosomes, genes, the genome — scale and organization
+- [ ] Mendelian genetics & Punnett squares
+- [ ] Population genetics: allele frequencies, Hardy-Weinberg equilibrium
+- [ ] Genetic drift, mutation, migration — simulate departures from Hardy-Weinberg
+- [ ] Natural selection & fitness — intuition and simple models
+- [ ] Speciation & phylogenetic thinking
+- [ ] Cell signaling & gene regulation — sets up systems biology later
+- [ ] Basic ecology & population biology (food webs, carrying capacity) — bridges to Module 15
+- [ ] Human genetics & disease — motivating context for Module 09
+- [ ] Reading a research-grade biology figure/diagram correctly
+- [ ] The 50 vocabulary terms that appear in nearly every paper you'll read this year
+- [ ] Mini project: Hardy-Weinberg + genetic drift simulator from scratch
+- [ ] Mini project: "biology for computer scientists" explainer notebook
+- [ ] Research paper reading session
+- [ ] Module assessment + Track-A mock interview: explain the central dogma and Hardy-Weinberg without notes
 
 **papers.md:**
 
@@ -301,18 +301,18 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why genetics+evolution as their own module, beyond Module 05's basics
-2. Mendelian inheritance edge cases (linkage, epistasis)
-3. Molecular basis of mutation
-4. Genetic drift vs. selection — the Wright-Fisher model
-5. Coalescent theory — gentle intuition only at this tier
-6. Phylogenetic trees: distance-based vs. character-based methods
-7. Molecular clocks — intuition
-8. Evolutionary game theory — intuition, links to cooperation/ALife literature
-9. Convergent vs. divergent evolution — case studies
-10. Mini project: Wright-Fisher simulation vs. Hardy-Weinberg
-11. Research paper reading session
-12. Module assessment
+- [ ] Why genetics+evolution as their own module, beyond Module 05's basics
+- [ ] Mendelian inheritance edge cases (linkage, epistasis)
+- [ ] Molecular basis of mutation
+- [ ] Genetic drift vs. selection — the Wright-Fisher model
+- [ ] Coalescent theory — gentle intuition only at this tier
+- [ ] Phylogenetic trees: distance-based vs. character-based methods
+- [ ] Molecular clocks — intuition
+- [ ] Evolutionary game theory — intuition, links to cooperation/ALife literature
+- [ ] Convergent vs. divergent evolution — case studies
+- [ ] Mini project: Wright-Fisher simulation vs. Hardy-Weinberg
+- [ ] Research paper reading session
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -334,16 +334,16 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why this module, at working-competence depth
-2. Amino acids & protein primary structure
-3. Enzyme kinetics — Michaelis-Menten intuition
-4. DNA replication & repair — mechanics relevant to NGS error models later
-5. Transcription & translation — mechanics, beyond Module 05's overview
-6. Post-translational modification — survey
-7. Common biochemistry assay data shapes (sets up genomics/proteomics data literacy)
-8. Mini project: numerical Michaelis-Menten kinetics simulation
-9. Research paper reading session
-10. Module assessment
+- [ ] Why this module, at working-competence depth
+- [ ] Amino acids & protein primary structure
+- [ ] Enzyme kinetics — Michaelis-Menten intuition
+- [ ] DNA replication & repair — mechanics relevant to NGS error models later
+- [ ] Transcription & translation — mechanics, beyond Module 05's overview
+- [ ] Post-translational modification — survey
+- [ ] Common biochemistry assay data shapes (sets up genomics/proteomics data literacy)
+- [ ] Mini project: numerical Michaelis-Menten kinetics simulation
+- [ ] Research paper reading session
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -364,24 +364,24 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why sequence alignment is the canonical interview topic
-2. Sequence data formats: FASTA, FASTQ, basic quality scores
-3. Edit distance & the alignment problem, motivated properly
-4. Needleman-Wunsch from scratch (global alignment)
-5. Smith-Waterman from scratch (local alignment)
-6. Scoring matrices: PAM, BLOSUM — what they actually encode
-7. Gap penalties — linear vs. affine
-8. How BLAST actually works: k-mer seeding + heuristic extension (the literal interview answer)
-9. Multiple sequence alignment concepts (progressive alignment; MAFFT/MUSCLE at usage level)
-10. Distance matrices from alignments
-11. Phylogenetic tree construction: UPGMA
-12. Phylogenetic tree construction: Neighbor-Joining
-13. Reading and interpreting a phylogenetic tree correctly
-14. Genome assembly concepts: overlap graphs, De Bruijn graphs (conceptual only)
-15. Rosalind.info problem set — assigned active-recall companion
-16. Mini project: from-scratch NW+SW, benchmarked against Biopython's implementation
-17. Mini project: real phylogenetics pipeline on a public gene-family dataset
-18. Module assessment + mock interview: "How does BLAST work?" (must include k-mer seeding and heuristic extension)
+- [ ] Why sequence alignment is the canonical interview topic
+- [ ] Sequence data formats: FASTA, FASTQ, basic quality scores
+- [ ] Edit distance & the alignment problem, motivated properly
+- [ ] Needleman-Wunsch from scratch (global alignment)
+- [ ] Smith-Waterman from scratch (local alignment)
+- [ ] Scoring matrices: PAM, BLOSUM — what they actually encode
+- [ ] Gap penalties — linear vs. affine
+- [ ] How BLAST actually works: k-mer seeding + heuristic extension (the literal interview answer)
+- [ ] Multiple sequence alignment concepts (progressive alignment; MAFFT/MUSCLE at usage level)
+- [ ] Distance matrices from alignments
+- [ ] Phylogenetic tree construction: UPGMA
+- [ ] Phylogenetic tree construction: Neighbor-Joining
+- [ ] Reading and interpreting a phylogenetic tree correctly
+- [ ] Genome assembly concepts: overlap graphs, De Bruijn graphs (conceptual only)
+- [ ] Rosalind.info problem set — assigned active-recall companion
+- [ ] Mini project: from-scratch NW+SW, benchmarked against Biopython's implementation
+- [ ] Mini project: real phylogenetics pipeline on a public gene-family dataset
+- [ ] Module assessment + mock interview: "How does BLAST work?" (must include k-mer seeding and heuristic extension)
 
 **papers.md:**
 
@@ -405,24 +405,24 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why NGS data is the highest-leverage Track A module
-2. Sequencing technology landscape (short-read vs. long-read) — fast survey
-3. FASTQ quality control — reading a QC report
-4. Read trimming & filtering concepts
-5. Read alignment to a reference: what BWA/STAR/HISAT2 actually do (usage level)
-6. SAM/BAM format literacy
-7. Variant calling concepts: what GATK-class tools do (usage level)
-8. VCF format literacy
-9. RNA-seq experimental design — replicates, batch effects
-10. Read counting & normalization (CPM, TPM — why raw counts mislead)
-11. Differential expression statistics — direct callback to Module 03's multiple-testing content
-12. DESeq2/limma-style workflow — concepts, then a Python-side equivalent (`pydeseq2`)
-13. Visualizing RNA-seq results: volcano plots, MA plots, sample PCA
-14. Public data sources: GEO and SRA — finding and pulling a real dataset
-15. Reproducible pipeline design for the whole workflow
-16. Mini project: full differential-expression analysis on a real GEO dataset, written up properly
-17. Research paper reading session (DESeq2 paper)
-18. Module assessment + mock interview: walk through an RNA-seq pipeline end to end, defend every statistical choice
+- [ ] Why NGS data is the highest-leverage Track A module
+- [ ] Sequencing technology landscape (short-read vs. long-read) — fast survey
+- [ ] FASTQ quality control — reading a QC report
+- [ ] Read trimming & filtering concepts
+- [ ] Read alignment to a reference: what BWA/STAR/HISAT2 actually do (usage level)
+- [ ] SAM/BAM format literacy
+- [ ] Variant calling concepts: what GATK-class tools do (usage level)
+- [ ] VCF format literacy
+- [ ] RNA-seq experimental design — replicates, batch effects
+- [ ] Read counting & normalization (CPM, TPM — why raw counts mislead)
+- [ ] Differential expression statistics — direct callback to Module 03's multiple-testing content
+- [ ] DESeq2/limma-style workflow — concepts, then a Python-side equivalent (`pydeseq2`)
+- [ ] Visualizing RNA-seq results: volcano plots, MA plots, sample PCA
+- [ ] Public data sources: GEO and SRA — finding and pulling a real dataset
+- [ ] Reproducible pipeline design for the whole workflow
+- [ ] Mini project: full differential-expression analysis on a real GEO dataset, written up properly
+- [ ] Research paper reading session (DESeq2 paper)
+- [ ] Module assessment + mock interview: walk through an RNA-seq pipeline end to end, defend every statistical choice
 
 **papers.md:**
 
@@ -445,16 +445,16 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Extending Module 09 into single-cell concepts — survey depth
-2. Single-cell RNA-seq data shape & QC concepts
-3. Dimensionality reduction for single-cell (PCA → UMAP/t-SNE, conceptually)
-4. Clustering single-cell data — concepts, `scanpy` usage level
-5. Mass-spectrometry-based proteomics — data shape, survey depth
-6. Protein quantification concepts
-7. Multi-omics integration — survey, why it's genuinely hard
-8. Mini project: small `scanpy` single-cell walkthrough on a public dataset
-9. Research paper reading session
-10. Module assessment
+- [ ] Extending Module 09 into single-cell concepts — survey depth
+- [ ] Single-cell RNA-seq data shape & QC concepts
+- [ ] Dimensionality reduction for single-cell (PCA → UMAP/t-SNE, conceptually)
+- [ ] Clustering single-cell data — concepts, `scanpy` usage level
+- [ ] Mass-spectrometry-based proteomics — data shape, survey depth
+- [ ] Protein quantification concepts
+- [ ] Multi-omics integration — survey, why it's genuinely hard
+- [ ] Mini project: small `scanpy` single-cell walkthrough on a public dataset
+- [ ] Research paper reading session
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -475,14 +475,14 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Protein structure levels — primary through quaternary, survey
-2. Reading and visualizing a PDB structure programmatically
-3. Homology modeling concepts (SWISS-MODEL, usage level)
-4. The AlphaFold revolution — what actually changed, conceptually
-5. Structure-comparison mini project (see below)
-6. Reading a Ramachandran plot
-7. Mini project: the structure-comparison notebook
-8. Module assessment
+- [ ] Protein structure levels — primary through quaternary, survey
+- [ ] Reading and visualizing a PDB structure programmatically
+- [ ] Homology modeling concepts (SWISS-MODEL, usage level)
+- [ ] The AlphaFold revolution — what actually changed, conceptually
+- [ ] Structure-comparison mini project (see below)
+- [ ] Reading a Ramachandran plot
+- [ ] Mini project: the structure-comparison notebook
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -503,18 +503,18 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why network biology — and the concrete Track A evidence above
-2. Gene regulatory networks — concepts
-3. Protein-protein interaction networks — the STRING database
-4. Building and analyzing a network with `networkx`
-5. Network topology metrics — degree, centrality, clustering coefficient
-6. Feedback loops & bistability — the toggle-switch
-7. Simulating a small gene circuit's ODEs (direct callback to Module 02)
-8. Metabolic networks — survey, `COBRApy` at usage level
-9. Mini project: STRING-based network analysis on a real pathway
-10. Research paper reading session
-11. Module assessment + Track-A mock interview rehearsal modeled directly on the IISER-Pune-style posting
-12. **Reserved slot** — promote to full Tier 1 breakdown here if the Month-3 checkpoint confirms the signal
+- [ ] Why network biology — and the concrete Track A evidence above
+- [ ] Gene regulatory networks — concepts
+- [ ] Protein-protein interaction networks — the STRING database
+- [ ] Building and analyzing a network with `networkx`
+- [ ] Network topology metrics — degree, centrality, clustering coefficient
+- [ ] Feedback loops & bistability — the toggle-switch
+- [ ] Simulating a small gene circuit's ODEs (direct callback to Module 02)
+- [ ] Metabolic networks — survey, `COBRApy` at usage level
+- [ ] Mini project: STRING-based network analysis on a real pathway
+- [ ] Research paper reading session
+- [ ] Module assessment + Track-A mock interview rehearsal modeled directly on the IISER-Pune-style posting
+- [ ] **Reserved slot** — promote to full Tier 1 breakdown here if the Month-3 checkpoint confirms the signal
 
 **papers.md:**
 
@@ -535,22 +535,22 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why this module is Tier 1 despite the time box — existing RAG/LLM/AI-agent background transfers directly
-2. Biological data as ML data: feature engineering for sequences/expression matrices
-3. Train/test/validation discipline for biological data — and why leakage is unusually easy here
-4. Classical ML: classification on a real genomics/proteomics dataset
-5. Classical ML: regression and its biological-interpretation pitfalls
-6. Evaluation metrics that matter in biology (sensitivity/specificity, AUROC, calibration — not just accuracy)
-7. Feature importance & interpretability — SHAP at usage level
-8. CNNs for sequence data — concept plus a small implementation
-9. Transformers for sequence data — concept, explicit connection to existing LLM knowledge
-10. Transfer learning from pretrained biological models (ESM, genomic language models) — usage level
-11. Handling class imbalance in biological datasets
-12. Mini project: a defensible ML classifier on a real dataset, full methodology written up
-13. Mini project (stretch): fine-tune or probe a pretrained sequence model
-14. Research paper reading session
-15. Module assessment
-16. Dual Track A/B mock: defend the evaluation methodology cold, no notes
+- [ ] Why this module is Tier 1 despite the time box — existing RAG/LLM/AI-agent background transfers directly
+- [ ] Biological data as ML data: feature engineering for sequences/expression matrices
+- [ ] Train/test/validation discipline for biological data — and why leakage is unusually easy here
+- [ ] Classical ML: classification on a real genomics/proteomics dataset
+- [ ] Classical ML: regression and its biological-interpretation pitfalls
+- [ ] Evaluation metrics that matter in biology (sensitivity/specificity, AUROC, calibration — not just accuracy)
+- [ ] Feature importance & interpretability — SHAP at usage level
+- [ ] CNNs for sequence data — concept plus a small implementation
+- [ ] Transformers for sequence data — concept, explicit connection to existing LLM knowledge
+- [ ] Transfer learning from pretrained biological models (ESM, genomic language models) — usage level
+- [ ] Handling class imbalance in biological datasets
+- [ ] Mini project: a defensible ML classifier on a real dataset, full methodology written up
+- [ ] Mini project (stretch): fine-tune or probe a pretrained sequence model
+- [ ] Research paper reading session
+- [ ] Module assessment
+- [ ] Dual Track A/B mock: defend the evaluation methodology cold, no notes
 
 **papers.md:**
 
@@ -572,14 +572,14 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why GNNs, at survey depth — molecular graphs and PPI networks as graph data
-2. Graph representation basics (adjacency, message-passing intuition)
-3. A minimal GNN walkthrough with PyTorch Geometric
-4. GNNs for molecular property prediction — usage level
-5. GNNs for protein-protein interaction prediction — usage level
-6. Mini project: a small GNN on a public molecular or PPI dataset
-7. Research paper reading session
-8. Module assessment
+- [ ] Why GNNs, at survey depth — molecular graphs and PPI networks as graph data
+- [ ] Graph representation basics (adjacency, message-passing intuition)
+- [ ] A minimal GNN walkthrough with PyTorch Geometric
+- [ ] GNNs for molecular property prediction — usage level
+- [ ] GNNs for protein-protein interaction prediction — usage level
+- [ ] Mini project: a small GNN on a public molecular or PPI dataset
+- [ ] Research paper reading session
+- [ ] Module assessment
 
 **papers.md:**
 
@@ -600,18 +600,18 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why ABM belongs in a computational biology accelerator, not just an ecology curriculum
-2. Mesa fundamentals — agents, schedulers, spatial grids
-3. The WolfSheep model — run unmodified first, then modify
-4. The ODD Protocol — writing one for a model
-5. Evolutionary computation basics — genetic algorithms, intuition
-6. Connecting ABM to population genetics (Modules 05/06) — drift/selection, agent-based instead of equation-based
-7. Sensitivity analysis — batch runs, parameter sweeps
-8. Mini project: an ecological or evolutionary ABM with a real research question
-9. Research paper reading session (Grimm et al., ODD Protocol)
-10. Module assessment
-11. **If prior agent-based-modeling work exists elsewhere, port it in deliberately here rather than rebuilding from scratch**
-12. Specialization flag: this module is the bridge if Artificial Life/Computational Ecology is where signal points
+- [ ] Why ABM belongs in a computational biology accelerator, not just an ecology curriculum
+- [ ] Mesa fundamentals — agents, schedulers, spatial grids
+- [ ] The WolfSheep model — run unmodified first, then modify
+- [ ] The ODD Protocol — writing one for a model
+- [ ] Evolutionary computation basics — genetic algorithms, intuition
+- [ ] Connecting ABM to population genetics (Modules 05/06) — drift/selection, agent-based instead of equation-based
+- [ ] Sensitivity analysis — batch runs, parameter sweeps
+- [ ] Mini project: an ecological or evolutionary ABM with a real research question
+- [ ] Research paper reading session (Grimm et al., ODD Protocol)
+- [ ] Module assessment
+- [ ] **If prior agent-based-modeling work exists elsewhere, port it in deliberately here rather than rebuilding from scratch**
+- [ ] Specialization flag: this module is the bridge if Artificial Life/Computational Ecology is where signal points
 
 **papers.md:**
 
@@ -632,22 +632,22 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. What a Research Software Engineer actually is, and why this identity matters for both tracks
-2. Formal code review practice — applied retroactively to every prior module's mini-projects
-3. Writing a test suite with `pytest` for `compbio_utils`
-4. Continuous integration basics — GitHub Actions running tests on every push
-5. Packaging `compbio_utils` properly (`pyproject.toml`, semantic versioning)
-6. Documentation as code — docstrings, a generated docs site
-7. Reproducible environments — pinned dependencies, light containerization (Docker)
-8. Data management — FAIR principles, applied directly to this repo's `datasets/` folders
-9. Licensing literacy — code vs. data licensing, and why it matters
-10. "Good Enough Practices in Scientific Computing" applied as a literal audit checklist on this repo
-11. Software citation — making `compbio_utils` citable (`CITATION.cff`)
-12. Mini project: refactor the messiest existing notebook in the repo to this module's standard
-13. Mini project: a real, if small, contribution to an existing open-source tool used elsewhere in the program (Biopython, scikit-bio, or Mesa)
-14. Research paper reading session (Goth et al., RSE competencies)
-15. Module assessment
-16. **Standing milestone:** `compbio_utils` reaches a tagged `v1.0` with tests, docs, and a `CITATION.cff`
+- [ ] What a Research Software Engineer actually is, and why this identity matters for both tracks
+- [ ] Formal code review practice — applied retroactively to every prior module's mini-projects
+- [ ] Writing a test suite with `pytest` for `compbio_utils`
+- [ ] Continuous integration basics — GitHub Actions running tests on every push
+- [ ] Packaging `compbio_utils` properly (`pyproject.toml`, semantic versioning)
+- [ ] Documentation as code — docstrings, a generated docs site
+- [ ] Reproducible environments — pinned dependencies, light containerization (Docker)
+- [ ] Data management — FAIR principles, applied directly to this repo's `datasets/` folders
+- [ ] Licensing literacy — code vs. data licensing, and why it matters
+- [ ] "Good Enough Practices in Scientific Computing" applied as a literal audit checklist on this repo
+- [ ] Software citation — making `compbio_utils` citable (`CITATION.cff`)
+- [ ] Mini project: refactor the messiest existing notebook in the repo to this module's standard
+- [ ] Mini project: a real, if small, contribution to an existing open-source tool used elsewhere in the program (Biopython, scikit-bio, or Mesa)
+- [ ] Research paper reading session (Goth et al., RSE competencies)
+- [ ] Module assessment
+- [ ] **Standing milestone:** `compbio_utils` reaches a tagged `v1.0` with tests, docs, and a `CITATION.cff`
 
 **papers.md:**
 
@@ -669,16 +669,16 @@ baseline for every Track A role.
 
 **roadmap.md:**
 
-1. Why HPC/parallel matters even at modest scale in computational biology
-2. Profiling Python code — find the actual bottleneck before optimizing anything
-3. Vectorization vs. parallelization — knowing which applies
-4. `multiprocessing`/`joblib` for embarrassingly parallel biological workloads (e.g. parameter sweeps)
-5. GPU acceleration basics — when it's worth it, when it isn't
-6. Rust fundamentals refresher, leveraging existing Phylon/SJG ERP experience
-7. `PyO3`/`maturin` — calling Rust from Python for one real hot-path function
-8. Mini project: port one slow simulation/analysis loop to Rust, benchmark honestly
-9. Research paper / reading session
-10. Module assessment
+- [ ] Why HPC/parallel matters even at modest scale in computational biology
+- [ ] Profiling Python code — find the actual bottleneck before optimizing anything
+- [ ] Vectorization vs. parallelization — knowing which applies
+- [ ] `multiprocessing`/`joblib` for embarrassingly parallel biological workloads (e.g. parameter sweeps)
+- [ ] GPU acceleration basics — when it's worth it, when it isn't
+- [ ] Rust fundamentals refresher, leveraging existing Phylon/SJG ERP experience
+- [ ] `PyO3`/`maturin` — calling Rust from Python for one real hot-path function
+- [ ] Mini project: port one slow simulation/analysis loop to Rust, benchmark honestly
+- [ ] Research paper / reading session
+- [ ] Module assessment
 
 **papers.md:**
 
