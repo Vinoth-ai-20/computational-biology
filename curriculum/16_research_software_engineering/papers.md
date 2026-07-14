@@ -1,0 +1,7 @@
+# Module 16 — Papers
+
+| Paper | Type | Why it matters | When to read | Difficulty | Prerequisites |
+|---|---|---|---|---|---|
+| Wilson et al. (2014) "Best Practices for Scientific Computing." *PLOS Biology* 12(1): e1001745. DOI: 10.1371/journal.pbio.1001745 | Foundational | The canonical reference for how computational scientists should write software. Covers: writing code for humans, automating repetition, using version control, keeping track of what was done. Directly informs this module's design. | Week 1, Day 1 — before any notebooks | Low — accessible to anyone | None |
+| Wilson et al. (2017) "Good Enough Practices in Scientific Computing." *PLOS Computational Biology* 13(6): e1005510. DOI: 10.1371/journal.pcbi.1005510 | Foundational | A pragmatic refinement of the 2014 paper — "good enough" rather than ideal, aimed at researchers who are not primarily software engineers. Covers data management, software, collaboration, project organisation, and keeping track of changes. | Week 1, Day 2 — after the 2014 paper | Low | Wilson et al. 2014 |
+| Taschuk & Wilson (2017) "Ten Simple Rules for Making Research Software More Robust." *PLOS Computational Biology* 13(4): e1005412. DOI: 10.1371/journal.pcbi.1005412 | Survey/Rules | Highly concrete checklist: use version control, provide a test suite, use semantic versioning, document your interfaces, give the software a license, etc. Maps directly onto each notebook in this module. Use as a checklist when building compbio_utils. | Week 2 — after NB04 (CLI) and before NB05 (CI) | Low | None |
