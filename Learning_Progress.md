@@ -2,7 +2,13 @@
 
 ## Claude Project: **Computational Biology**
 
-### Document: 12-Month Research Accelerator Tracker | Version 2.0 | Created: 27 June 2026 | Supersedes v1.0
+### Document: 12-Month Research Accelerator Tracker | Version 2.1 | Updated: 14 July 2026 | Supersedes v2.0
+
+**v2.1 change (structural, per CLAUDE.md §14):** Module 14 (Deep Learning & GNNs)
+promoted from Tier 3 — Survey to Tier 2 — Working competence. The module's own
+README/roadmap had already been built out to Tier 2 scope (13 notebooks) before this
+tracker was reconciled to match; the tracker was the stale side of the mismatch, not
+the repo. See §2 and §4 below.
 
 ### Status: 🟢 Update whenever a notebook/module/paper/milestone completes — not on a fixed schedule
 
@@ -67,7 +73,7 @@ entrant on a 12-month clock. The honest response is depth-tiering (§2), not pre
 | 11 | Structural Biology | 3 — Survey | Important to know (AlphaFold era) but not the leverage point this year |
 | 12 | Systems & Network Biology | 2 — Working | **Promotion candidate** — real 2026 India job posting evidence found; revisit at Month-3 checkpoint |
 | 13 | Machine Learning for Biology | **1 — Master** | Existing ML background makes this efficient, and it's explicitly named in EMBL/IMPRS recruitment themes |
-| 14 | Deep Learning & GNNs | 3 — Survey | High effort-to-leverage ratio this year; revisit if specialization points here |
+| 14 | Deep Learning & GNNs | **2 — Working** *(promoted from 3 — Survey, 14 Jul 2026 — see v2.1 note above)* | Repo-side roadmap was already built at Tier 2 depth (13 notebooks: MLP-from-scratch → PyTorch → CNN/RNN/attention → VAE → 2 GNN notebooks → interpretability → AlphaFold/ESM); tracker reconciled to match rather than trimming completed planning work |
 | 15 | Simulation & Agent-Based Modeling | 2 — Working | Bridge to ALife/Computational Ecology if that's the door that opens |
 | 16 | Research Software Engineering | **1 — Master** | "Research Software Engineer" is a named Track A target role — this module *is* that qualification |
 | 17 | HPC, Parallel Computing & Rust | 2 — Working | Existing Rust background makes this efficient; differentiator, not baseline |
@@ -564,31 +570,33 @@ baseline for every Track A role.
 
 ---
 
-### Module 14 — `14_deep_learning_and_gnns` — Tier 3 — Weeks 24–28
+### Module 14 — `14_deep_learning_and_gnns` — Tier 2 — Weeks 24–29 (6 weeks)
 
-**Track A relevance:** Rare but a real differentiator if it appears in a posting.
-**Track B relevance:** Relevant if specialization narrows toward computational genomics or structural biology with an ML lean.
-**Portfolio artifact:** A small GNN notebook — good signal-to-effort ratio given the Tier 3 budget.
+**Promoted from Tier 3 — Survey on 14 Jul 2026** (see v2.1 note at top of document).
+The 8-item sketch this section used to contain is superseded by the real roadmap
+already built in the repo — do not maintain two copies; `roadmap.md` below is the
+source of truth going forward, this section just points at it.
 
-**roadmap.md:**
+**Track A relevance:** A real differentiator when it appears in a posting; deep
+learning fluency (not just usage) is increasingly named explicitly for ML-leaning
+bioinformatics engineer roles.
+**Track B relevance:** Directly relevant if specialization narrows toward
+computational genomics, structural biology, or single-cell foundation models with an
+ML lean (IMPRS-ML, Theis/Rätsch-adjacent supervisors) — see `portfolio/sop_theis.md`.
+**Portfolio artifact:** MP01 — TF binding classification, DeepBind-style CNN vs.
+k-mer+SVM baseline (built on the Module 13 baseline).
 
-- [ ] Why GNNs, at survey depth — molecular graphs and PPI networks as graph data
-- [ ] Graph representation basics (adjacency, message-passing intuition)
-- [ ] A minimal GNN walkthrough with PyTorch Geometric
-- [ ] GNNs for molecular property prediction — usage level
-- [ ] GNNs for protein-protein interaction prediction — usage level
-- [ ] Mini project: a small GNN on a public molecular or PPI dataset
-- [ ] Research paper reading session
-- [ ] Module assessment
+**roadmap.md (13 notebooks — see `curriculum/14_deep_learning_and_gnns/roadmap.md` for
+the full spec):** neural networks from scratch → PyTorch fundamentals → CNN for
+sequence classification → RNN/LSTM for sequences → attention & transformers →
+autoencoders & VAEs (scVI overview) → GNNs (message passing, GCN) → GNNs for
+molecular biology → training best practices → model interpretability → AlphaFold2 &
+protein language models (ESM) → mini project + assessment.
 
-**papers.md:**
+**papers.md:** see `curriculum/14_deep_learning_and_gnns/papers.md` for the full,
+already-populated reading list (this tracker section no longer duplicates it).
 
-| Resource | Type | Why | When | Difficulty | Prereqs |
-| --- | --- | --- | --- | --- | --- |
-| Zitnik et al. (2018), graph representation learning in biomedicine (survey) | Survey | The landscape view | Week 25 | Moderate | Module 13 |
-| Gilmer et al. (2017), message-passing neural networks | Foundational | Technical — flag the difficulty honestly | Week 26 | Hard | Module 13, graph basics |
-
-**Status:** ⏳ Not started — 0/8 notebooks
+**Status:** ⏳ Not started — 0/13 notebooks
 
 ---
 
